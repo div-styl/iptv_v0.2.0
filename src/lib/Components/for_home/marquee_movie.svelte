@@ -1,14 +1,12 @@
 <script>
-  import { images, channels } from "../../images";
+  import { images } from "../../images";
+  import Marquee from "svelte-fast-marquee";
+  let gomovie = true;
 </script>
 
-
-
-<article
-  class="flex whitespace-no-wrap overflow-x-hidden  "
->
+<article class="flex whitespace-no-wrap overflow-x-hidden">
   <div class="relative">
-    <ul class="flex animate-marquee">
+    <Marquee pauseOnHover={true} speed={100} play={gomovie}>
       {#each Object.values(images) as image (image.id)}
         <div class="h-50 w-60 mx-3">
           <img
@@ -28,7 +26,26 @@
           />
         </div>
       {/each}
-    </ul>
+      <!-- !dup -->
+      {#each Object.values(images) as image (image.id)}
+        <div class="h-50 w-60 mx-3">
+          <img
+            src={image.path}
+            alt={`Image ${image.id}`}
+            class="w-full h-full bg-cover bg-center"
+          />
+        </div>
+      {/each}
+      <!-- !dup -->
+      {#each Object.values(images) as image (image.id)}
+        <div class="h-50 w-60 mx-3">
+          <img
+            src={image.path}
+            alt={`Image ${image.id}`}
+            class="w-full h-full bg-cover bg-center"
+          />
+        </div>
+      {/each}
+    </Marquee>
   </div>
 </article>
-
