@@ -2,7 +2,7 @@
   import MIcon from "./icons.svelte";
 </script>
 
-<div class="bg-[#3f323e] md:h-[210px] md:w-[500px] rounded-lg m-6" >
+<div class="bg-[#3f323e] md:h-[220px] md:w-[500px] rounded-lg m-6" >
   <div class="text-white flex flex-col justify-center items-start p-4">
     <h1 class="md:text-3xl text-2xl font-bold">
       <MIcon />
