@@ -5,10 +5,8 @@
 </script>
 
 
-<main class="bg-[#0F010F]" >
+<main class="bg-[#0F010F] h-[1500px]" >
 <Head />
 <MarqueeMovie />
-
 <Features />
-
 </main>
