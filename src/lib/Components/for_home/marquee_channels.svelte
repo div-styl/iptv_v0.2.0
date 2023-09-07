@@ -1,62 +1,24 @@
 <script>
   import { channels } from "../../images";
   import Marquee from "svelte-fast-marquee";
-  let go = true;
+  let gomovie = true;
+  let loop = 100;
 </script>
 
-<main
-  class="flex whitespace-no-wrap overflow-x-hidden pb-6 object-none h-50 w-90"
->
+<article class="flex whitespace-no-wrap overflow-x-hidden">
   <div class="relative">
-    <Marquee pauseOnHover={true} speed={100} play={go}>
-      {#each Object.values(channels) as channel (channel.id)}
-        <div class="w-40 h-40 mx-3">
-          <img
-            src={channel.path}
-            alt={`Image ${channel.id}`}
-            class="w-full h-full bg-cover bg-center"
-          />
-        </div>
-      {/each}
-      {#each Object.values(channels) as channel (channel.id)}
-        <div class="w-40 h-40 mx-3">
-          <img
-            src={channel.path}
-            alt={`Image ${channel.id}`}
-            class="w-full h-full bg-cover bg-center"
-          />
-        </div>
-      {/each}
-      <!-- !duplicate for continuous looping -->
-      {#each Object.values(channels) as channel (channel.id)}
-        <div class="w-40 h-40 mx-2">
-          <img
-            src={channel.path}
-            alt={`Image ${channel.id}`}
-            class="w-full h-full bg-cover bg-center"
-          />
-        </div>
-      {/each}
-      <!-- !dup -->
-      {#each Object.values(channels) as channel (channel.id)}
-        <div class="w-40 h-40 mx-2">
-          <img
-            src={channel.path}
-            alt={`Image ${channel.id}`}
-            class="w-full h-full bg-cover bg-center"
-          />
-        </div>
-      {/each}
-      <!-- !dup -->
-      {#each Object.values(channels) as channel (channel.id)}
-        <div class="w-40 h-40 mx-2">
-          <img
-            src={channel.path}
-            alt={`Image ${channel.id}`}
-            class="w-full h-full bg-cover bg-center"
-          />
-        </div>
+    <Marquee pauseOnHover={true} speed={100} play={gomovie}>
+      {#each Array(loop) as _}
+        {#each Object.values(channels) as image (image.id)}
+          <div class="h-40 w-40 mx-4">
+            <img
+              src={image.path}
+              alt={`Image ${image.id}`}
+              class="w-full h-full bg-cover bg-center"
+            />
+          </div>
+        {/each}
       {/each}
     </Marquee>
   </div>
-</main>
+</article>
