@@ -3,7 +3,7 @@
 </script>
 
 <article
-  class="flex whitespace-no-wrap overflow-x-hidden pb-6 object-none h-50 w-90 bg-[#1a181a]"
+  class="flex whitespace-no-wrap overflow-x-hidden pb-6 object-none h-50 w-90 "
 >
   <div class="relative">
     <ul class="flex animate-marquee">
@@ -29,7 +29,7 @@
   </div>
 </article>
 
-<article class="flex whitespace-no-wrap overflow-x-hidden pt-6 bg-[#3F323E]">
+<article class="flex whitespace-no-wrap overflow-x-hidden pt-6 ">
   <div class="relative">
     <ul class="flex animate-marquee">
       {#each Object.values(images) as image (image.id)}

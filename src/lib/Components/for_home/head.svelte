@@ -1,5 +1,5 @@
 <script>
-    import Background from "/Assets/johnsnow.jpg";
+    import Background from "/Assets/wall.jpg";
     import CButton from "./button.svelte";
   </script>
   
