@@ -25,3 +25,9 @@ export const channels = {
   channel7: { id: 7, path: '/Assets/channels/national-geographic-kids-seeklogo.com.svg' },
   channel8: { id: 8, path: '/Assets/channels/osn-seeklogo.com.svg' },
 }
+
+export const icon = {
+  icon1: { id: 1, path: '/Assets/icons/moneybag.svg' },
+  icon2: { id: 2, path: '/Assets/icons/tv.svg' },
+  icon3: { id: 3, path: '/Assets/icons/flag.svg' },
+}

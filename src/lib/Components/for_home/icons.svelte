@@ -13,6 +13,6 @@
       <stop offset="100%" style="stop-color:#f56565;stop-opacity:1" />
     </linearGradient>
   </defs>
-    <slot></slot>
+    <slot />
 </svg>
 
