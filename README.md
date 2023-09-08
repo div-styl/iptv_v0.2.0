@@ -9,3 +9,4 @@ this is a simple humble website for learning purposes to new framework called `s
 npm i 
 npm run dev
 ```
+this project is contributed
