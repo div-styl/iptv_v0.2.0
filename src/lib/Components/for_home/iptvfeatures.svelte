@@ -1,6 +1,5 @@
 <script>
-  import MIcon from "./icons.svelte";
-  // import Icon from "@iconify/svelte";
+   // import Icon from "@iconify/svelte";
   import { icon } from "../../images.js"
 </script>
 
