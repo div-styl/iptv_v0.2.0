@@ -1,8 +1,9 @@
 <script>
   // your script goes here
+  import { scrollTo, scrollRef, scrollTop } from 'svelte-scrolling'
 </script>
 
-<main id="plans">
+<main use:scrollRef={'plans'}>
   <h1 class="md:text-4xl text-2xl flex justify-center text-white font-extrabold">Choose Your Plan</h1>
   <!-- container of background -->
   <div class="md:p-10 md:mx-4 p-3 mx-3">

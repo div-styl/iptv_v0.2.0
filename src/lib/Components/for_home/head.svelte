@@ -1,7 +1,8 @@
 <script>
     import Background from "/Assets/wall.jpg";
     import CButton from "./button.svelte";
-
+    import scrollIntoView  from "./button.svelte";
+    import { scrollTo } from 'svelte-scrolling';
 </script>
   
   <main>
@@ -27,7 +28,7 @@
           </p>
         </div>
         <CButton>
-          <h1 id="scrollToPlans">Get Started</h1>
+              Get Started
         </CButton>
       </div>
     </div>
