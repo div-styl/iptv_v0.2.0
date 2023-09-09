@@ -2,7 +2,7 @@
   // your script goes here
 </script>
 
-<main class="">
+<main id="plans">
   <h1 class="md:text-4xl text-2xl flex justify-center text-white font-extrabold">Choose Your Plan</h1>
   <!-- container of background -->
   <div class="md:p-10 md:mx-4 p-3 mx-3">
@@ -22,9 +22,14 @@
           ">
           <li>HD/FHD/4K/8K Quality</li>
           <li>+15.000 Channels</li>
-          <li>+100.000 VOD </li>
+          <li>+100.000 VOD Updatable </li>
           <li>Watch from 115 Countries</li>
           <li>Refund Supported</li>
+      </div>
+      <div>
+        <button class="bg-[#ff9900] rounded-md px-4 py-2">
+          <a href="/" class="text-black text-xl font-bold">Buy Now</a>
+        </button>
       </div>
     </div>
   </div>

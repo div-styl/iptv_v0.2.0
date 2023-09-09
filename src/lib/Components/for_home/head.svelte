@@ -1,7 +1,8 @@
 <script>
     import Background from "/Assets/wall.jpg";
     import CButton from "./button.svelte";
-  </script>
+
+</script>
   
   <main>
     <div style="background-image: url({Background});" 
@@ -25,7 +26,9 @@
             voluptate
           </p>
         </div>
-        <CButton>Get Started</CButton>
+        <CButton>
+          <h1 id="scrollToPlans">Get Started</h1>
+        </CButton>
       </div>
     </div>
   </main>

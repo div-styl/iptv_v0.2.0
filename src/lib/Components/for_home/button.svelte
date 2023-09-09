@@ -1,5 +1,15 @@
+<script>
+      // TypeScript code to handle scrolling to the "Plans" section
+  export function scrollIntoView({ target }) {
+		const el = document.querySelector(target.getAttribute('href'));
+		if (!el) return;
+    el.scrollIntoView({
+      behavior: 'smooth'
+    });
+  }
+</script>
 <!-- This component only encapsulates the styles, u can add new logic in the scrip tag. -->
-<button
+<button 
   class="bg-[#661eff] rounded-xl  
   flex items-center font-medium text-[20px] p-3
   text-white "
