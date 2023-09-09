@@ -4,7 +4,7 @@
     export let routes = {}
 </script>
 
-<main>
+<main class="bg-[#0F010F] h-screen bg-cover w-screen ">
     <Nav />
     <Router routes={routes} />
 </main>

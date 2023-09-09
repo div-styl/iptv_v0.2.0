@@ -2,7 +2,7 @@
   import { channels } from "../../images";
   import Marquee from "svelte-fast-marquee";
   let gomovie = true;
-  let loop = 100;
+  let loop = 20;
 </script>
 
 <article class="flex whitespace-no-wrap overflow-x-hidden">
