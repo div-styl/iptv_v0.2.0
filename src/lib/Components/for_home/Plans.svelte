@@ -9,7 +9,7 @@
   <!-- container of background -->
   <div class="flex lg:flex-row flex-col overflow-auto justify-center items-center">
 <!-- marge two cards--> 
-  <div class="md:p-10 md:mx-4 p-3 mx-3">
+  <div class="md:p-10 md:mx-4 p-3">
     <div class="bg-[#1c031c] h-[550px] w-[300px] rounded-xl p-5 pt-8 flex flex-col justify-normal items-center">
       <!-- content of background -->
       <h1 class="text-white text-2xl font-light ">
@@ -21,7 +21,7 @@
       <!-- list of features-->
       <div class="p-10">
         <ul class="text-white font-medium text-sm leading-8 text-justify 
-          underline decoration-cyan-600 
+          underline decoration-cyan-600
           hover:underline-offset-4 cursor-pointer  
           ">
           <li>HD/FHD/4K/8K Quality</li>
@@ -88,6 +88,7 @@
       <h1 class="text-white text-2xl font-light ">
         6 Months
       </h1>
+
       <h2 class="text-white text-6xl font-bold mt-3">
         $14.99
       </h2>
