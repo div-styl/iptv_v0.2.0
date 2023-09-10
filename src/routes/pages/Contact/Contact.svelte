@@ -1,5 +1,5 @@
 <script>
-    let hello = "Hello World from About.svelte";
+    let hello = "Hello World from contact page";
 </script>
 
 <main>
