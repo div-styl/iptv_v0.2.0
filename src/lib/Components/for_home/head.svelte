@@ -1,8 +1,7 @@
 <script>
     import Background from "/Assets/wall.jpg";
     import CButton from "./button.svelte";
-    import scrollIntoView  from "./button.svelte";
-    import { scrollTo } from 'svelte-scrolling';
+
 </script>
   
   <main>
@@ -17,14 +16,12 @@
             All-In-One Quality<br />
             IPTV Service
           </h1>
-          <p class="md:text-justify text-xs font-normal leading-5 md:mb-5 mb-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
-            Quisquam
-            voluptatum, quibusdam, quia, quos voluptates voluptatibus <br />
-            exercitationem quod quae voluptate <br />
-            quibusdam, quia, quos voluptates voluptatibus <br />
-            exercitationem quod quae
-            voluptate
+          <p class="md:text-justify text-xs font-bold leading-5 md:mb-5 mb-3">
+          Elevate your entertainment with our Comprehensive <br />
+          IPTV Solution! Access your beloved shows, movies, 
+          and sports channels effortlessly, all in stunning high-definition. <br/> 
+          Bid farewell to traditional cable and 
+          unlock a world of endless entertainment. 
           </p>
         </div>
         <CButton>
