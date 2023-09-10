@@ -28,11 +28,11 @@
           <li>Watch from 115 Countries</li>
           <li>Refund Supported</li>
       </div>
-      <div>
-        <button  class="bg-[#ff9900] rounded-md px-4 py-3">
+      <div >
+        <button  class="bg-[#ff9900] rounded-md px-4 py-3 flex justify-center hover:bg-[#ff9900]/70 ">
           <a href="https://hosted.transaction.cloud/payment/product/TC-PR_AolDqa1" class="text-black text-xl font-bold">Buy Now</a>
         </button>
-          <h1 class="text-white mt-4 font-normal text-sm">ready in 3-5 days</h1>
+        <h1 class="text-white mt-5 font-medium text-[15px] flex justify-center">Ready In 3-2 Days</h1>
         <div class="mt-4 flex whitespace-nowrap space-x-2">
           <img src={icon.icon4.path} alt=""/>
           <img src={icon.icon5.path} alt="">
