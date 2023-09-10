@@ -7,7 +7,7 @@
 </script>
 
 
-<main class="bg-[#0F010F] h-[2500px] " >
+<main class="bg-[#0F010F] h-[2500px] w-screen " >
 <Head />
 <MarqueeChannels />
 <MarqueeMovie />
