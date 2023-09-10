@@ -7,7 +7,8 @@
 <main use:scrollRef={'plans'}>
   <h1 class="md:text-4xl text-2xl flex justify-center text-white font-extrabold">Choose Your Plan</h1>
   <!-- container of background -->
-  <div class="flex flex-col-reverse justify-center items-center">
+  <div class="flex lg:flex-row flex-col overflow-auto justify-center items-center">
+<!-- marge two cards--> 
   <div class="md:p-10 md:mx-4 p-3 mx-3">
     <div class="bg-[#1c031c] h-[550px] w-[300px] rounded-xl p-5 pt-8 flex flex-col justify-normal items-center">
       <!-- content of background -->
