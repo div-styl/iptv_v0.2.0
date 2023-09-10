@@ -14,7 +14,7 @@
         1 Month
       </h1>
       <h2 class="text-white text-6xl font-bold mt-3">
-        $59.99
+        $14.99
       </h2>
       <!-- list of features-->
       <div class="p-10">
