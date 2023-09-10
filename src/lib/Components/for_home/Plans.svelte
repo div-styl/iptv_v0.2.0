@@ -1,13 +1,14 @@
 <script>
   // your script goes here
-  import { scrollTo, scrollRef, scrollTop } from 'svelte-scrolling'
+  import {scrollRef} from 'svelte-scrolling'
+  import { icon } from '../../images';
 </script>
 
 <main use:scrollRef={'plans'}>
   <h1 class="md:text-4xl text-2xl flex justify-center text-white font-extrabold">Choose Your Plan</h1>
   <!-- container of background -->
   <div class="md:p-10 md:mx-4 p-3 mx-3">
-    <div class="bg-[#1c031c] h-[450px] w-[300px] rounded-md p-5 pt-8 flex flex-col justify-normal items-center">
+    <div class="bg-[#1c031c] h-[550px] w-[300px] rounded-xl p-5 pt-8 flex flex-col justify-normal items-center">
       <!-- content of background -->
       <h1 class="text-white text-2xl font-light ">
         1 Month
@@ -28,9 +29,16 @@
           <li>Refund Supported</li>
       </div>
       <div>
-        <button class="bg-[#ff9900] rounded-md px-4 py-2">
-          <a href="/" class="text-black text-xl font-bold">Buy Now</a>
+        <button  class="bg-[#ff9900] rounded-md px-4 py-3">
+          <a href="https://hosted.transaction.cloud/payment/product/TC-PR_AolDqa1" class="text-black text-xl font-bold">Buy Now</a>
         </button>
+          <h1 class="text-white mt-4 font-normal text-sm">ready in 3-5 days</h1>
+        <div class="mt-4 flex whitespace-nowrap space-x-2">
+          <img src={icon.icon4.path} alt=""/>
+          <img src={icon.icon5.path} alt="">
+          <img src={icon.icon6.path} alt="">
+          <img src={icon.icon7.path} alt="">
+        </div>
       </div>
     </div>
   </div>

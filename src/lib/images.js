@@ -30,4 +30,8 @@ export const icon = {
   icon1: { id: 1, path: '/Assets/icons/moneybag.svg' },
   icon2: { id: 2, path: '/Assets/icons/tv.svg' },
   icon3: { id: 3, path: '/Assets/icons/flag.svg' },
+  icon4: { id: 4, path: '/Assets/icons/icons8-android.svg' },
+  icon5: { id: 5, path: '/Assets/icons/icons8-apple-logo.svg' },
+  icon6: { id: 6, path: '/Assets/icons/icons8-tv.svg' },
+  icon7: { id: 7, path: '/Assets/icons/icons8-windows.svg' },
 }
