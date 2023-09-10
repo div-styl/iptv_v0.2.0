@@ -5,7 +5,7 @@
   let loop = 20;
 </script>
 
-<article class="flex whitespace-no-wrap overflow-x-hidden">
+<article>
   <div class="relative">
     <Marquee pauseOnHover={true} speed={100} play={gomovie}>
       {#each Array(loop) as _}
