@@ -27,7 +27,7 @@
         <div class="p-10">
           <ul
             class="text-white font-medium text-sm leading-8 text-justify
-            list-image-[url('public/Assets/icons/icons8-done.svg')] 
+            list-image-[url('/Assets/icons/icons8-done.svg')] 
           "
           >
             <li class="hover:underline decoration-blue-600 under">HD/FHD/4K/8K Quality</li>
@@ -72,7 +72,7 @@
         <div class="p-10">
           <ul
             class="text-white font-medium text-sm leading-8 text-justify
-            list-image-[url('public/Assets/icons/icons8-done.svg')] 
+            list-image-[url('/Assets/icons/icons8-done.svg')] 
           "
           >
             <li class="hover:underline decoration-blue-600 under">HD/FHD/4K/8K Quality</li>
@@ -119,7 +119,7 @@
         <div class="p-10">
           <ul
             class="text-white font-medium text-sm leading-8 text-justify
-            list-image-[url('public/Assets/icons/icons8-done.svg')] 
+            list-image-[url('/Assets/icons/icons8-done.svg')] 
           "
           >
             <li class="hover:underline decoration-blue-600 under">HD/FHD/4K/8K Quality</li>
@@ -165,7 +165,7 @@
         <div class="p-10">
           <ul
             class="text-white font-medium text-sm leading-8 text-justify
-            list-image-[url('public/Assets/icons/icons8-done.svg')] 
+            list-image-[url('/Assets/icons/icons8-done.svg')] 
           "
           >
             <li class="hover:underline decoration-blue-600 under">HD/FHD/4K/8K Quality</li>
