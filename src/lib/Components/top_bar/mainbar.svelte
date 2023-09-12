@@ -21,7 +21,7 @@
           <div
             class="text-white text-opacity- font-semibold font-nicomoji text-[25px]"
           >
-            IPTVHUB
+            TVPRO
           </div>
         </li>
       </ul>
