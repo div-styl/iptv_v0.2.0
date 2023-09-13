@@ -40,8 +40,8 @@
           <a href="/Contact" class="text-white hover:text-[#FF8913]/90" use:Link>Contact</a>
         </li>
         <li>
-          <a href="/Terms" class="text-white hover:text-[#FF8913]/90" use:Link
-            >Terms</a
+          <a href="/About" class="text-white hover:text-[#FF8913]/90" use:Link
+            >About</a
           >
         </li>
       </ul>

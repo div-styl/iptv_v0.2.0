@@ -44,12 +44,12 @@
     </li>
     <li>
       <a
-        href="/Terms"
+        href="/About"
         class="block p-2 transition duration-300 ease-in-out hover:text-blue-600/60 hover:underline text-2xl"
         use:Link
         on:click={toggleNavBar}
       >
-        Terms
+        About
       </a>
     </li>
   </ul>

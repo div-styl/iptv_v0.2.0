@@ -1,5 +1,4 @@
-<script>
-</script>
+
 
 <main class="text-white leading-7">
   <h1 class="text-3xl font-bold">Privacy Policy for tvpro</h1>
