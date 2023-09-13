@@ -1,6 +1,7 @@
 <script>
   import { link as Link } from "svelte-spa-router";
   import Logo from "/Assets/logo_hub.png"
+  import Mobilebar from "./mobilebar.svelte";
 </script>
 
 <nav class="bg-[#0f010f]">
@@ -28,7 +29,7 @@
     </a>
     <!-- nav bar other webpages container using div -->
     <!-- ! nav bar for desktop and tablets only for 768px and above -->
-    <div class="hidden md:flex items-center mx-9 border-solid">
+    <div class=" hidden md:flex items-center mx-9 border-solid">
       <ul
         class="flex items-center space-x-4 font-medium font-nicomoji text-[20px] text-yellow-400 text-opacity-80"
       >
@@ -46,5 +47,6 @@
       </ul>
     </div>
     <!-- ! button menu for mobile only for 768px and below humbugger menu -->
+  <Mobilebar />
   </div>
 </nav>
