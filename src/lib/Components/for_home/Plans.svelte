@@ -30,17 +30,17 @@
             list-image-[url('/Assets/icons/icons8-done.svg')] 
           "
           >
-            <li class="md:hover:underline decoration-blue-600 underline-offset-4">HD/FHD/4K/8K Quality</li>
-            <li class="md:hover:underline decoration-blue-600 underline-offset-4">+15.000 Channels</li>
-            <li class="md:hover:underline decoration-blue-600 underline-offset-4">+100.000 VOD Updatable</li>
-            <li class="md:hover:underline decoration-blue-600 underline-offset-4">Watch from 115 Countries</li>
-            <li class="md:hover:underline decoration-blue-600 underline-offset-4">Refund Supported</li>
-            <li class="md:hover:underline decoration-blue-600 underline-offset-4">Support 24/7</li>
+            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">HD/FHD/4K/8K Quality</li>
+            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">+15.000 Channels</li>
+            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">+100.000 VOD Updatable</li>
+            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">Watch from 115 Countries</li>
+            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">Refund Supported</li>
+            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">Support 24/7</li>
           </ul>
         </div>
         <div>
           <button
-            class="bg-[#ff9900] rounded-md px-4 py-3 flex justify-center md:hover:bg-[#ff9900]/70"
+            class="bg-[#ff9900] rounded-md px-4 py-3 flex justify-center lg:hover:bg-[#ff9900]/70"
           >
             <a
               href="https://hosted.transaction.cloud/payment/product/TC-PR_AolDqa1"
@@ -76,17 +76,17 @@
             list-image-[url('/Assets/icons/icons8-done.svg')] 
           "
           >
-            <li class="md:hover:underline decoration-blue-600 underline-offset-4">HD/FHD/4K/8K Quality</li>
-            <li class="md:hover:underline decoration-blue-600 underline-offset-4">+15.000 Channels</li>
-            <li class="md:hover:underline decoration-blue-600 underline-offset-4">+100.000 VOD Updatable</li>
-            <li class="md:hover:underline decoration-blue-600 underline-offset-4">Watch from 115 Countries</li>
-            <li class="md:hover:underline decoration-blue-600 underline-offset-4">Refund Supported</li>
-            <li class="md:hover:underline decoration-blue-600 underline-offset-4">Support 24/7</li>
+            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">HD/FHD/4K/8K Quality</li>
+            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">+15.000 Channels</li>
+            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">+100.000 VOD Updatable</li>
+            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">Watch from 115 Countries</li>
+            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">Refund Supported</li>
+            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">Support 24/7</li>
           </ul>
         </div>
         <div>
           <button
-            class="bg-[#ff9900] rounded-md px-4 py-3 flex justify-center md:hover:bg-[#ff9900]/70"
+            class="bg-[#ff9900] rounded-md px-4 py-3 flex justify-center lg:hover:bg-[#ff9900]/70"
           >
             <a
               href="https://hosted.transaction.cloud/payment/product/TC-PR_1yklj9R"
@@ -124,17 +124,17 @@
             list-image-[url('/Assets/icons/icons8-done.svg')] 
           "
           >
-            <li class="md:hover:underline decoration-blue-600 underline-offset-4">HD/FHD/4K/8K Quality</li>
-            <li class="md:hover:underline decoration-blue-600 underline-offset-4">+15.000 Channels</li>
-            <li class="md:hover:underline decoration-blue-600 underline-offset-4">+100.000 VOD Updatable</li>
-            <li class="md:hover:underline decoration-blue-600 underline-offset-4">Watch from 115 Countries</li>
-            <li class="md:hover:underline decoration-blue-600 underline-offset-4">Refund Supported</li>
-            <li class="md:hover:underline decoration-blue-600 underline-offset-4">Support 24/7</li>
+            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">HD/FHD/4K/8K Quality</li>
+            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">+15.000 Channels</li>
+            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">+100.000 VOD Updatable</li>
+            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">Watch from 115 Countries</li>
+            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">Refund Supported</li>
+            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">Support 24/7</li>
           </ul>
         </div>
         <div>
           <button
-            class="bg-[#ff9900] rounded-md px-4 py-3 flex justify-center md:hover:bg-[#ff9900]/70"
+            class="bg-[#ff9900] rounded-md px-4 py-3 flex justify-center lg:hover:bg-[#ff9900]/70"
           >
             <a
               href="https://hosted.transaction.cloud/payment/product/TC-PR_RrXzwz1"
@@ -171,17 +171,17 @@
             list-image-[url('/Assets/icons/icons8-done.svg')] 
           "
           >
-            <li class="md:hover:underline decoration-blue-600 underline-offset-4">HD/FHD/4K/8K Quality</li>
-            <li class="md:hover:underline decoration-blue-600 underline-offset-4">+15.000 Channels</li>
-            <li class="md:hover:underline decoration-blue-600 underline-offset-4">+100.000 VOD Updatable</li>
-            <li class="md:hover:underline decoration-blue-600 underline-offset-4">Watch from 115 Countries</li>
-            <li class="md:hover:underline decoration-blue-600 underline-offset-4">Refund Supported</li>
-            <li class="md:hover:underline decoration-blue-600 underline-offset-4">Support 24/7</li>
+            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">HD/FHD/4K/8K Quality</li>
+            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">+15.000 Channels</li>
+            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">+100.000 VOD Updatable</li>
+            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">Watch from 115 Countries</li>
+            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">Refund Supported</li>
+            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">Support 24/7</li>
           </ul>
         </div>
         <div>
           <button
-            class="bg-[#ff9900] rounded-md px-4 py-3 flex justify-center md:hover:bg-[#ff9900]/70"
+            class="bg-[#ff9900] rounded-md px-4 py-3 flex justify-center lg:hover:bg-[#ff9900]/70"
           >
             <a
               href="https://hosted.transaction.cloud/payment/product/TC-PR_AnNvBBA"
