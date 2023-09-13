@@ -1,5 +1,5 @@
 <script>
-  import { link as Link } from "svelte-spa-router";
+  import { Link } from "svelte-routing";
   import Hum from "./humber.svelte";
   let isNavOpen = false;
   const toggleNavBar = () => {
@@ -23,34 +23,34 @@
 >
   <ul>
     <li>
-      <a
-        href="/"
+      <Link
+        to="/"
         class="block p-2 transition duration-300 ease-in-out hover:text-blue-600/60 hover:underline text-2xl"
-        use:Link
+        
         on:click={toggleNavBar}
       >
         Home
-      </a>
+    </Link>
     </li>
     <li>
-      <a
-        href="/Contact"
+      <Link
+        to="/Contact"
         class="block p-2 transition duration-300 ease-in-out hover:text-blue-600/60 hover:underline text-2xl"
-        use:Link
+        
         on:click={toggleNavBar}
       >
         Contact
-      </a>
+    </Link>
     </li>
     <li>
-      <a
-        href="/About"
+      <Link
+        to="/About"
         class="block p-2 transition duration-300 ease-in-out hover:text-blue-600/60 hover:underline text-2xl"
-        use:Link
+        
         on:click={toggleNavBar}
       >
         About
-      </a>
+    </Link>
     </li>
   </ul>
 </div>

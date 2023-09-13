@@ -1,6 +1,7 @@
 <script>
-  import { link as Link } from "svelte-spa-router";
-  import Logo from "/Assets/logo_hub.png"
+  //import { link as Link } from "svelte-spa-router";
+  import { Link } from "svelte-routing";
+  import Logo from "/Assets/logo_hub.png";
   import Mobilebar from "./mobilebar.svelte";
 </script>
 
@@ -13,9 +14,9 @@
       <ul class="flex items-center space-x-3">
         <li>
           <!-- lgog as img -->
-          <a href="/" use:Link>
+          <Link to="/">
             <img src={Logo} class="w-[40px] h-[40px]" alt="" />
-          </a>
+          </Link>
         </li>
         <li>
           <!-- div class for name of logo only -->
@@ -34,19 +35,21 @@
         class="flex items-center space-x-4 font-medium font-nicomoji text-[20px] text-yellow-400 text-opacity-80"
       >
         <li>
-          <a href="/" class="text-white hover:text-[#FF8913]/90" use:Link>Home</a>
+          <Link to="/" class="text-white hover:text-[#FF8913]/90">Home</Link>
         </li>
         <li>
-          <a href="/Contact" class="text-white hover:text-[#FF8913]/90" use:Link>Contact</a>
+          <Link to="/Contact" class="text-white hover:text-[#FF8913]/90"
+            >Contact</Link
+          >
         </li>
         <li>
-          <a href="/About" class="text-white hover:text-[#FF8913]/90" use:Link
-            >About</a
+          <Link to="/About" class="text-white hover:text-[#FF8913]/90"
+            >About</Link
           >
         </li>
       </ul>
     </div>
     <!-- ! button menu for mobile only for 768px and below humbugger menu -->
-  <Mobilebar />
+    <Mobilebar />
   </div>
 </nav>
