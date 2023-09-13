@@ -2,7 +2,7 @@
   import { icon } from "../../images.js"
 </script>
 
-<main class="md:flex md:flex-row mx-8 ">
+<main class="md:flex md:flex-row mx-4 lg:flex justify-center ">
   <!-- ! Channels from 115 Countries -->
   <div
     class="bg-[#3f323e] 2xl:h-[300px] md:h-[600px] xl:h-[350px] lg:h-[380px] md:w-[450px] rounded-lg m-6"
