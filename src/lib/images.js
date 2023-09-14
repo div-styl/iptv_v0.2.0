@@ -35,4 +35,7 @@ export const icon = {
   icon6: { id: 6, path: '/Assets/icons/icons8-tv.svg' },
   icon7: { id: 7, path: '/Assets/icons/icons8-windows.svg' },
   icon8: { id: 8, path: '/Assets/icons/icons8-done.svg' },
+  telegram: {id: 9, path: '/Assets/icons/icons8-telegram.svg'},
+  whatsapp: {id: 10, path: '/Assets/icons/icons8-whatsapp.svg'},
+  email: {id: 11, path: '/Assets/icons/icons8-email.svg'},
 }

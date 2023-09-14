@@ -1,7 +1,9 @@
 <script>
-    let hello = "Hello World from contact page";
+    import Header from "./header.svelte";
+    import Info from "./info.svelte";
 </script>
 
 <main>
-    <h1 class="text-red-500 flex justify-center items-center text-">{hello}</h1>
+    <Header />
+    <Info />
 </main>
