@@ -1,0 +1,86 @@
+<script>
+  let Email;
+  let FirstName;
+  let LastName;
+  let Subject;
+  let Message;
+
+  const submit = () => {
+    const data = {
+      Email: Email.value,
+      FirstName: FirstName.value,
+      LastName: LastName.value,
+      Subject: Subject.value,
+      Message: Message.value,
+    };
+
+    alert(JSON.stringify(data));
+  };
+</script>
+
+<section class="flex justify-center items-end">
+  <form
+    on:submit|preventDefault={submit}
+    class=" md:w-[500px] w-11/12 bg-[#1c031c] p-4 rounded-md flex flex-col gap-6 border border-black"
+  >
+    <div class="flex flex-row gap-4">
+      <label for="first_name" class="text-gray-300">
+        Full Name
+        <input
+          type="text"
+          name="first_name"
+          bind:this={FirstName}
+          placeholder="Fist Name"
+          class="text-black mt-1 w-full px-3 py-2 border border-gray-300 bg-gray-200 rounded-md "
+        />
+      </label>
+      <label for="last_name" class="text-gray-300">
+        Last Name
+        <input
+          type="text"
+          name="last_name"
+          bind:this={LastName}
+          placeholder="Last Name"
+          class="text-black mt-1 w-full px-3 py-2 border border-gray-300 rounded-md bg-gray-200"
+        />
+      </label>
+    </div>
+    <label for="email" class="text-gray-300">
+      Email
+      <input
+        type="email"
+        name="email"
+        bind:this={Email}
+        placeholder="Email"
+        class="text-black mt-1 w-full px-3 py-2 border border-gray-300 rounded-md bg-gray-200"
+      />
+    </label>
+
+    <label for="subject" class="text-gray-300">
+      Subject
+      <input
+        type="text"
+        name="subject"
+        bind:this={Subject}
+        placeholder="Subject"
+        class="text-black mt-1 w-full px-3 py-2 border border-gray-300 rounded-md bg-gray-200"
+      />
+    </label>
+
+    <label for="text" class="text-gray-300">
+      Message
+      <textarea
+        name="text"
+        bind:this={Message}
+        placeholder="Message"
+        class="text-black mt-1 w-full px-3 py-2 border border-gray-300 rounded-md bg-gray-200"
+      />
+    </label>
+    <button
+      type="submit"
+      class="bg-[#FF8913] text-black py-2 px-4 rounded-md hover:bg-green-700 focus:outline-none focus:bg-green-700 transition"
+    >
+      Send
+    </button>
+  </form>
+</section>
