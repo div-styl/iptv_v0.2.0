@@ -1,12 +1,12 @@
 const datausr = [
   {
     path: "/Assets/icons/icons8-email.svg",
-    myurl: "coderguinues@gmail.com",
+    myurl: "codergenius25@gmail.com",
     title: "Email Adress",
   },
   {
     path: "/Assets/icons/icons8-telegram.svg",
-    myurl: "https://t.me/tvpro",
+    myurl: "https://t.me/blackwater_05",
     title: "Telegram",
   },
   {
