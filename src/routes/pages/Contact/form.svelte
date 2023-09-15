@@ -19,20 +19,20 @@
   import Infomobile from "./infomobile.svelte";
 </script>
 
-<section class="flex justify-center items-end">
+<section class="flex justify-center">
   <form
     on:submit|preventDefault={submit}
-    class=" md:w-[500px] w-11/12 bg-[#1c031c] p-4 rounded-md flex flex-col gap-6 border border-black"
+    class=" md:w-[500px] w-11/12 bg-[#1c031c] p-5 rounded-xl flex flex-col gap-6 border border-[#FF8913]"
   >
     <div class="flex flex-row gap-4">
       <label for="first_name" class="text-gray-300">
-        Full Name
+        First Name
         <input
           type="text"
           name="first_name"
           bind:this={FName}
           placeholder="Fist Name"
-          class="text-black mt-1 w-full px-3 py-2 border border-gray-300 bg-gray-200 rounded-md "
+          class="text-black mt-1 w-full px-3 py-2 border border-gray-300 bg-gray-200 rounded-md"
         />
       </label>
       <label for="last_name" class="text-gray-300">
@@ -79,7 +79,7 @@
     </label>
     <button
       type="submit"
-      class="bg-[#FF8913] text-black py-2 px-3  rounded-md hover:bg-green-700 focus:outline-none focus:bg-green-700 transition"
+      class="bg-[#FF8913] text-black py-2 px-3 rounded-md hover:bg-green-700 focus:outline-none focus:bg-green-700 transition"
     >
       Send
     </button>
