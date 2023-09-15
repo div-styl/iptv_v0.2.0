@@ -1,21 +1,22 @@
 <script>
   let Email;
-  let FirstName;
-  let LastName;
+  let FName;
+  let LName;
   let Subject;
   let Message;
 
   const submit = () => {
     const data = {
       Email: Email.value,
-      FirstName: FirstName.value,
-      LastName: LastName.value,
+      FirstName: FName.value,
+      LastName: LName.value,
       Subject: Subject.value,
       Message: Message.value,
     };
 
     alert(JSON.stringify(data));
   };
+  import Infomobile from "./infomobile.svelte";
 </script>
 
 <section class="flex justify-center items-end">
@@ -29,7 +30,7 @@
         <input
           type="text"
           name="first_name"
-          bind:this={FirstName}
+          bind:this={FName}
           placeholder="Fist Name"
           class="text-black mt-1 w-full px-3 py-2 border border-gray-300 bg-gray-200 rounded-md "
         />
@@ -39,7 +40,7 @@
         <input
           type="text"
           name="last_name"
-          bind:this={LastName}
+          bind:this={LName}
           placeholder="Last Name"
           class="text-black mt-1 w-full px-3 py-2 border border-gray-300 rounded-md bg-gray-200"
         />
@@ -78,9 +79,10 @@
     </label>
     <button
       type="submit"
-      class="bg-[#FF8913] text-black py-2 px-4 rounded-md hover:bg-green-700 focus:outline-none focus:bg-green-700 transition"
+      class="bg-[#FF8913] text-black py-2 px-3  rounded-md hover:bg-green-700 focus:outline-none focus:bg-green-700 transition"
     >
       Send
     </button>
+    <Infomobile />
   </form>
 </section>
