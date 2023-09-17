@@ -16,6 +16,7 @@
   <Route path="/Contact" component={Contact} />
   <Route path="/Terms" component={Terms} />
   <Route path="/About" component={About} />
+
   <Footermain />
 </Router>
 </main>

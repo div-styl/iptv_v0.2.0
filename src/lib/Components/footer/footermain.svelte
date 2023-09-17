@@ -4,7 +4,7 @@
 
 <footer class="bg-[#0f010f]">
   <div
-    class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between"
+    class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between lg:mt-[400px] "
   >
     <span
       class="text-sm text-gray-200 dark:text-gray-500 sm:text-center flex justify-center"
