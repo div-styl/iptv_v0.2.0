@@ -4,7 +4,7 @@
   import Desktopcontact from "./form.svelte";
 </script>
 
-<main>
+<main class="h-screen ">
   <Header />
 
   <div class="flex">

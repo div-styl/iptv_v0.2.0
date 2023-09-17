@@ -54,7 +54,7 @@
 </script>
 
 
-<section class="flex justify-center  mb-12">
+<section class="flex justify-center  ">
   <form
     on:submit|preventDefault={addVendorTest}
     class=" md:w-[500px] w-11/12 bg-[#1c031c] p-5 rounded-xl flex flex-col gap-6 border border-[#FF8913] "
