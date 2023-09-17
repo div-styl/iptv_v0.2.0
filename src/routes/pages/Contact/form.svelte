@@ -21,7 +21,7 @@
   };
   
     try {
-      const response = await fetch("http://localhost:5000/submit-form", {
+      const response = await fetch("https://flaks-form.onrender.com/submit-form", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
