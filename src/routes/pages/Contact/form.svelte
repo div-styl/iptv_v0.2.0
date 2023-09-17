@@ -12,7 +12,7 @@
 
   const resetForm = () => {
     // Optionally, reset the form fields
-    document.querySelector('form').reset();
+    document.querySelector("form").reset();
 
     // Reset 'values' to default values
     values = { ...valueDefaults };
@@ -22,14 +22,17 @@
     event.preventDefault();
 
     try {
-      const response = await fetch("https://flaks-form.onrender.com/submit-form", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(values),
-      });
-      
+      const response = await fetch(
+        "https://flaks-form.onrender.com/submit-form",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(values),
+        }
+      );
+
       if (response.ok) {
         // Handle successful submission, e.g., show a success message
         console.log("the form is sent to email owner");
@@ -53,11 +56,11 @@
   };
 </script>
 
-
-<section class="flex justify-center  ">
+<section class="flex justify-center">
   <form
+    data-netlify="true"
     on:submit|preventDefault={addVendorTest}
-    class=" md:w-[500px] w-11/12 bg-[#1c031c] p-5 rounded-xl flex flex-col gap-6 border border-[#FF8913] "
+    class=" md:w-[500px] w-11/12 bg-[#1c031c] p-5 rounded-xl flex flex-col gap-6 border border-[#FF8913]"
   >
     <div class="flex flex-row gap-4">
       <label for="first_name" class="text-gray-300">
@@ -119,7 +122,7 @@
     </label>
     <button
       type="submit"
-      class="bg-[#FF8913] text-black font-bold py-2 px-3 rounded-md focus:outline-none focus:bg-green-500  transition"
+      class="bg-[#FF8913] text-black font-bold py-2 px-3 rounded-md focus:outline-none focus:bg-green-500 transition"
     >
       Send
     </button>
