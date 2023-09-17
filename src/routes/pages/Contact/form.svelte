@@ -54,10 +54,10 @@
 </script>
 
 
-<section class="flex justify-center">
+<section class="flex justify-center  mb-12">
   <form
     on:submit|preventDefault={addVendorTest}
-    class=" md:w-[500px] w-11/12 bg-[#1c031c] p-5 rounded-xl flex flex-col gap-6 border border-[#FF8913]"
+    class=" md:w-[500px] w-11/12 bg-[#1c031c] p-5 rounded-xl flex flex-col gap-6 border border-[#FF8913] "
   >
     <div class="flex flex-row gap-4">
       <label for="first_name" class="text-gray-300">
