@@ -119,7 +119,7 @@
     </label>
     <button
       type="submit"
-      class="bg-[#FF8913] text-black font-bold py-2 px-3 rounded-md focus:outline-none focus:bg-slate-300 transition"
+      class="bg-[#FF8913] text-black font-bold py-2 px-3 rounded-md focus:outline-none focus:bg-green-500  transition"
     >
       Send
     </button>
