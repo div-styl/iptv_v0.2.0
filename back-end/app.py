@@ -1,8 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from flask_mail import Mail, Message
-from config import usr_mail, usr_pass  # Correct the import here
-
+import os
 app = Flask(__name__)
 
 app.config['SECRET_KEY'] = "tsfyguaistyatuis589566875623568956"
@@ -13,9 +12,9 @@ app.config['MAIL_PORT'] = 587
 
 app.config['MAIL_USE_TLS'] = True
 
-app.config['MAIL_USERNAME'] = usr_mail
+app.config['MAIL_USERNAME'] = os.environ.get('USR_MAIL')
 
-app.config['MAIL_PASSWORD'] = usr_pass
+app.config['MAIL_PASSWORD'] = os.environ.get('USR_PASS')
 
 CORS(app)
 mail = Mail(app)
