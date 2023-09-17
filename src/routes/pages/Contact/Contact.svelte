@@ -11,7 +11,7 @@
     <div class="flex-shrink-0">
       <Info />
     </div>
-    <div class="flex flex-grow justify-center">
+    <div class="flex flex-grow justify-end mr-40 mb-7">
       <Desktopcontact />
     </div>
   </div>
