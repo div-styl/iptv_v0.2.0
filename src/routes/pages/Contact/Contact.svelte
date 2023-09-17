@@ -4,14 +4,14 @@
   import Desktopcontact from "./form.svelte";
 </script>
 
-<main class="h-screen ">
+<main class="md:h-screen">
   <Header />
 
-  <div class="flex">
-    <div class="flex-shrink-0">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0">
       <Info />
     </div>
-    <div class="flex flex-grow justify-end mr-40 mb-7">
+    <div class="md:flex md:flex-grow md:justify-end md:mr-40 md:mb-7">
       <Desktopcontact />
     </div>
   </div>
