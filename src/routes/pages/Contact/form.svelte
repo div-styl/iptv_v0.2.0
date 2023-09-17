@@ -31,11 +31,11 @@
 
       if (response.ok) {
         // Handle successful submission, e.g., show a success message
-        console.log("db rak nadi");
-        alert(JSON.stringify(data));
+        console.log("the form is sent to email owner");
+        alert("Thank you for your submission!");
       } else {
         // Handle errors, e.g., show an error message
-        console.error("ach ahd lkhra");
+        console.error("hold there is error in form");
         
       }
     } catch (error) {
@@ -57,7 +57,7 @@
           name="first_name"
           bind:this={first_name}
           placeholder="Fist Name"
-          class="text-black mt-1 w-full px-3 py-2 border border-gray-300 bg-gray-200 rounded-md"
+          class="text-black mt-1 w-full px-3 py-2 border border-gray-300 bg-gray-300 rounded-md"
         />
       </label>
       <label for="last_name" class="text-gray-300">
@@ -67,7 +67,7 @@
           name="last_name"
           bind:this={last_name}
           placeholder="Last Name"
-          class="text-black mt-1 w-full px-3 py-2 border border-gray-300 rounded-md bg-gray-200"
+          class="text-black mt-1 w-full px-3 py-2 border border-gray-300 rounded-md bg-gray-300"
         />
       </label>
     </div>
@@ -78,7 +78,7 @@
         name="email"
         bind:this={email}
         placeholder="Email"
-        class="text-black mt-1 w-full px-3 py-2 border border-gray-300 rounded-md bg-gray-200"
+        class="text-black mt-1 w-full px-3 py-2 border border-gray-300 rounded-md bg-gray-300"
       />
     </label>
 
@@ -89,7 +89,7 @@
         name="subject"
         bind:this={subject}
         placeholder="Subject"
-        class="text-black mt-1 w-full px-3 py-2 border border-gray-300 rounded-md bg-gray-200"
+        class="text-black mt-1 w-full px-3 py-2 border border-gray-300 rounded-md bg-gray-300"
       />
     </label>
 
@@ -99,12 +99,12 @@
         name="message"
         bind:this={message}
         placeholder="Message"
-        class="text-black mt-1 w-full px-3 py-2 border border-gray-300 rounded-md bg-gray-200"
+        class="text-black mt-1 w-full px-3 py-2 border border-gray-300 rounded-md bg-gray-300"
       />
     </label>
     <button
       type="submit"
-      class="bg-[#FF8913] text-black py-2 px-3 rounded-md hover:bg-green-700 focus:outline-none focus:bg-green-700 transition"
+      class="bg-[#FF8913] text-black font-bold py-2 px-3 rounded-md  focus:outline-none focus:bg-slate-300 transition"
     >
       Send
     </button>
