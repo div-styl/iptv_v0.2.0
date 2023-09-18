@@ -39,3 +39,4 @@ export const icon = {
   whatsapp: {id: 10, path: '/Assets/icons/icons8-whatsapp.svg'},
   email: {id: 11, path: '/Assets/icons/icons8-email.svg'},
 }
+

@@ -17,7 +17,7 @@
     <!-- marge two cards-->
     <div class="md:p-10 md:mx-4 p-3">
       <div
-        class="bg-[#1c031c] h-[550px] w-[300px] rounded-xl p-5 pt-8 flex flex-col justify-normal items-center"
+        class="bg-[#1c031c] h-[580px] w-[300px] rounded-xl p-5 pt-8 flex flex-col justify-normal items-center"
       >
         <!-- content of background -->
         <!-- ! 1 month -->
@@ -64,7 +64,7 @@
     <!-- ! 3 Months-->
     <div class="md:p-10 md:mx-4 p-3 mx-3">
       <div
-        class="bg-[#1c031c] h-[550px] w-[300px] rounded-xl p-5 pt-8 flex flex-col justify-normal items-center"
+        class="bg-[#1c031c] h-[580px] w-[300px] rounded-xl p-5 pt-8 flex flex-col justify-normal items-center"
       >
         <!-- content of background -->
         <h1 class="text-white text-2xl font-light">3 Month</h1>
@@ -111,7 +111,8 @@
 
     <div class="md:p-10 md:mx-4 p-3 mx-3">
       <div
-        class="bg-[#1c031c] h-[550px] w-[300px] rounded-xl p-5 pt-8 flex flex-col justify-normal items-center"
+        class="bg-[#0a0909] h-[580px] w-[300px] border border-[#ff9900] 
+        rounded-xl p-5 pt-8 flex flex-col justify-normal items-center"
       >
         <!-- content of background -->
         <h1 class="text-white text-2xl font-light">6 Months</h1>
@@ -159,7 +160,7 @@
 
     <div class="md:p-10 md:mx-4 p-3 mx-3">
       <div
-        class="bg-[#1c031c] h-[550px] w-[300px] rounded-xl p-5 pt-8 flex flex-col justify-normal items-center"
+        class="bg-[#1c031c] h-[580px] w-[300px] rounded-xl p-5 pt-8 flex flex-col justify-normal items-center"
       >
         <!-- content of background -->
         <h1 class="text-white text-2xl font-light">1 Year</h1>

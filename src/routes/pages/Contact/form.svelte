@@ -12,7 +12,7 @@
 
   const resetForm = () => {
     // Optionally, reset the form fields
-    document.querySelector("form").reset();
+    document.querySelector("form").reset()
 
     // Reset 'values' to default values
     values = { ...valueDefaults };
