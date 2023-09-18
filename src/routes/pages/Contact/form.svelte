@@ -1,5 +1,8 @@
 <script>
   import Infomobile from "./infomobile.svelte";
+  import Statusform from "./statusform.svelte";
+
+  
   const valueDefaults = {
     first_name: "",
     last_name: "",
@@ -9,10 +12,12 @@
   };
 
   let values = { ...valueDefaults };
+  let isFormSubmitted = false;
+  let isFormSuccess = true;
 
   const resetForm = () => {
     // Optionally, reset the form fields
-    document.querySelector("form").reset()
+    document.querySelector("form").reset();
 
     // Reset 'values' to default values
     values = { ...valueDefaults };
@@ -36,14 +41,17 @@
       if (response.ok) {
         // Handle successful submission, e.g., show a success message
         console.log("the form is sent to email owner");
-        alert("Thank you for your submission!");
-
+        // prompt the success message
+        isFormSuccess = true;
+        isFormSubmitted = true;
         // Reset the form
         resetForm();
       } else {
         // Handle errors, e.g., show an error message
         console.error("Hold on, there is an error in the form");
-
+        // prompt the msg error
+        isFormSuccess = false;
+        isFormSubmitted = true;
         // Reset the form
         resetForm();
       }
@@ -62,7 +70,7 @@
     class=" md:w-[500px] w-11/12 bg-[#1c031c] p-5 rounded-xl flex flex-col gap-6 border border-[#FF8913]"
   >
     <div class="flex flex-row gap-4">
-      <label for="first_name" class="text-gray-300">
+      <label for="first_name" class="text-gray-300 uppercase font-semibold">
         First Name
         <input
           required
@@ -70,10 +78,11 @@
           name="first_name"
           bind:value={values.first_name}
           placeholder="Fist Name"
-          class="text-black mt-1 w-full px-3 py-2 border border-gray-300 bg-gray-300 rounded-md"
+          class="bg-gray-200 text-black border border-gray-200 rounded-md w-full mt-1 py-2 px-4
+          focus:outline-none focus:bg-white focus:border-[#FF8913] font-medium"
         />
       </label>
-      <label for="last_name" class="text-gray-300">
+      <label for="last_name" class="text-gray-300 uppercase font-semibold">
         Last Name
         <input
           type="text"
@@ -81,11 +90,12 @@
           name="last_name"
           bind:value={values.last_name}
           placeholder="Last Name"
-          class="text-black mt-1 w-full px-3 py-2 border border-gray-300 rounded-md bg-gray-300"
+          class="bg-gray-200 text-black border border-gray-200 rounded-md w-full mt-1 py-2 px-4
+          focus:outline-none focus:bg-white focus:border-[#FF8913] font-medium"
         />
       </label>
     </div>
-    <label for="email" class="text-gray-300">
+    <label for="email" class="text-gray-300 uppercase font-semibold">
       Email
       <input
         required
@@ -93,11 +103,12 @@
         name="email"
         bind:value={values.email}
         placeholder="Email"
-        class="text-black mt-1 w-full px-3 py-2 border border-gray-300 rounded-md bg-gray-300"
+        class="bg-gray-200 text-black border border-gray-200 rounded-md w-full mt-1 py-2 px-4
+          focus:outline-none focus:bg-white focus:border-[#FF8913] font-medium"
       />
     </label>
 
-    <label for="subject" class="text-gray-300">
+    <label for="subject" class="text-gray-300 uppercase font-semibold">
       Subject
       <input
         required
@@ -105,26 +116,30 @@
         name="subject"
         bind:value={values.subject}
         placeholder="Subject"
-        class="text-black mt-1 w-full px-3 py-2 border border-gray-300 rounded-md bg-gray-300"
+        class="bg-gray-200 text-black border border-gray-200 rounded-md w-full mt-1 py-2 px-4
+          focus:outline-none focus:bg-white focus:border-[#FF8913] font-medium"
       />
     </label>
 
-    <label for="text" class="text-gray-300">
+    <label for="text" class="text-gray-300 uppercase font-semibold">
       Message
       <textarea
         name="message"
         required
         bind:value={values.message}
         placeholder="Message"
-        class="text-black mt-1 w-full px-3 py-2 border border-gray-300 rounded-md bg-gray-300"
+        class="bg-gray-200 text-black border border-gray-200 rounded-md w-full mt-1 py-2 px-4
+          focus:outline-none focus:bg-white focus:border-[#FF8913] font-medium"
       />
     </label>
+    <Statusform {isFormSubmitted} {isFormSuccess} />
     <button
       type="submit"
       class="bg-[#FF8913] text-black font-bold py-2 px-3 rounded-md focus:outline-none focus:bg-green-500 transition"
     >
       Send
     </button>
+
     <Infomobile />
   </form>
 </section>
