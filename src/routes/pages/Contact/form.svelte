@@ -41,6 +41,7 @@
       if (response.ok) {
         // Handle successful submission, e.g., show a success message
         console.log("the form is sent to email owner");
+        console.log(JSON.stringify(values));
         // prompt the success message
         isFormSuccess = true;
         isFormSubmitted = true;
