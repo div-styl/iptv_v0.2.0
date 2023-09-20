@@ -2,7 +2,7 @@
   import { Link } from "svelte-routing";
   import Hum from "./humber.svelte";
   let isNavOpen = false;
-  
+
   const toggleNavBar = () => {
     isNavOpen = !isNavOpen;
   };
@@ -27,7 +27,7 @@
     <li>
       <Link
         to="/"
-        class="block p-2 transition duration-300 ease-in-out hover:text-blue-600/60 hover:underline text-2xl"
+        class="block p-2 transition duration-300 ease-in-out hover:text-orange-600/60 hover:underline text-2xl"
         on:click={toggleNavBar}
       >
         Home
@@ -36,7 +36,7 @@
     <li>
       <Link
         to="/Contact"
-        class="block p-2 transition duration-300 ease-in-out hover:text-blue-600/60 hover:underline text-2xl"
+        class="block p-2 transition duration-300 ease-in-out hover:text-orange-600/60 hover:underline text-2xl"
         on:click={toggleNavBar}
       >
         Contact
@@ -45,7 +45,7 @@
     <li>
       <Link
         to="/About"
-        class="block p-2 transition duration-300 ease-in-out hover:text-blue-600/60 hover:underline text-2xl"
+        class="block p-2 transition duration-300 ease-in-out hover:text-orange-600/60 hover:underline text-2xl"
         on:click={toggleNavBar}
       >
         About
