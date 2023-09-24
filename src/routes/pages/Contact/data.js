@@ -11,7 +11,7 @@ const datausr = [
   },
   {
     path: "/Assets/icons/icons8-whatsapp.svg",
-    myurl: "https://wa.me/qr/Y6TW4WUX2TLSF1",
+    myurl: "https://wa.me/212666123158",
     title: "Whatsapp",
   },
 ];
