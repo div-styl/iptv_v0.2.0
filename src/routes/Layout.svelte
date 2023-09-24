@@ -9,7 +9,7 @@
   export let url = "";
 </script>
 
-<main class="bg-[#0F010F] min-h-screen bg-cover w-screen">
+<main class="bg-[#0F010F] min-h-screen bg-cover w-screen ">
 <Router {url}>
   <Mainbar />
   <Route path="/" component={Home} />

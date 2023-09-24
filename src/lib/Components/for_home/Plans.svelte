@@ -12,30 +12,55 @@
   </h1>
   <!-- container of background -->
   <div
-    class="flex lg:flex-row flex-col overflow-auto justify-center items-center"
+    class="flex xl:flex-row xl:flex-nowrap  flex-wrap
+    overflow-x-hidden justify-center items-center xl:space-x-0"
   >
-    <!-- marge two cards-->
-    <div class="md:p-10 md:mx-4 p-3">
+    <!-- !marge two cards-->
+    <div class="md:p-4 md:mx-lg:mx-auto p-3 mx-3">
       <div
         class="bg-[#1c031c] h-[580px] w-[300px] rounded-xl p-5 pt-8 flex flex-col justify-normal items-center"
       >
         <!-- content of background -->
-        <!-- ! 1 month -->
+        <!-- 1 month -->
         <h1 class="text-white text-2xl font-light">1 Month</h1>
         <h2 class="text-white text-6xl font-bold mt-3">$14.99</h2>
         <!-- list of features-->
         <div class="p-10">
           <ul
             class="text-white font-medium text-sm leading-8 text-justify
-            list-image-[url('/Assets/icons/icons8-done.svg')] 
+            list-image-[url('/Assets/icons/icons8-done.svg')]
           "
           >
-            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">HD/FHD/4K/8K Quality</li>
-            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">+15.000 Channels</li>
-            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">+100.000 VOD Updatable</li>
-            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">Watch from 115 Countries</li>
-            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">Refund Supported</li>
-            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">Support 24/7</li>
+            <li
+              class="lg:hover:underline decoration-blue-600 underline-offset-4"
+            >
+              HD/FHD/4K/8K Quality
+            </li>
+            <li
+              class="lg:hover:underline decoration-blue-600 underline-offset-4"
+            >
+              +15.000 Channels
+            </li>
+            <li
+              class="lg:hover:underline decoration-blue-600 underline-offset-4"
+            >
+              +100.000 VOD Updatable
+            </li>
+            <li
+              class="lg:hover:underline decoration-blue-600 underline-offset-4"
+            >
+              Watch from 115 Countries
+            </li>
+            <li
+              class="lg:hover:underline decoration-blue-600 underline-offset-4"
+            >
+              Refund Supported
+            </li>
+            <li
+              class="lg:hover:underline decoration-blue-600 underline-offset-4"
+            >
+              Support 24/7
+            </li>
           </ul>
         </div>
         <div>
@@ -62,7 +87,7 @@
       </div>
     </div>
     <!-- ! 3 Months-->
-    <div class="md:p-10 md:mx-4 p-3 mx-3">
+    <div class="md:p-10 md:mx-lg:mx-auto p-3 mx-3">
       <div
         class="bg-[#1c031c] h-[580px] w-[300px] rounded-xl p-5 pt-8 flex flex-col justify-normal items-center"
       >
@@ -73,15 +98,39 @@
         <div class="p-10">
           <ul
             class="text-white font-medium text-sm leading-8 text-justify
-            list-image-[url('/Assets/icons/icons8-done.svg')] 
+            list-image-[url('/Assets/icons/icons8-done.svg')]
           "
           >
-            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">HD/FHD/4K/8K Quality</li>
-            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">+15.000 Channels</li>
-            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">+100.000 VOD Updatable</li>
-            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">Watch from 115 Countries</li>
-            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">Refund Supported</li>
-            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">Support 24/7</li>
+            <li
+              class="lg:hover:underline decoration-blue-600 underline-offset-4"
+            >
+              HD/FHD/4K/8K Quality
+            </li>
+            <li
+              class="lg:hover:underline decoration-blue-600 underline-offset-4"
+            >
+              +15.000 Channels
+            </li>
+            <li
+              class="lg:hover:underline decoration-blue-600 underline-offset-4"
+            >
+              +100.000 VOD Updatable
+            </li>
+            <li
+              class="lg:hover:underline decoration-blue-600 underline-offset-4"
+            >
+              Watch from 115 Countries
+            </li>
+            <li
+              class="lg:hover:underline decoration-blue-600 underline-offset-4"
+            >
+              Refund Supported
+            </li>
+            <li
+              class="lg:hover:underline decoration-blue-600 underline-offset-4"
+            >
+              Support 24/7
+            </li>
           </ul>
         </div>
         <div>
@@ -107,11 +156,12 @@
         </div>
       </div>
     </div>
-    <!-- ! 6 Months-->
 
+    <!-- ! 6 Months-->
+    <div class="lg:max-lg:flex-row" />
     <div class="md:p-10 md:mx-4 p-3 mx-3">
       <div
-        class="bg-[#0a0909] h-[580px] w-[300px] border border-[#ff9900] 
+        class="bg-[#0a0909] h-[580px] w-[300px] border border-[#ff9900]
         rounded-xl p-5 pt-8 flex flex-col justify-normal items-center"
       >
         <!-- content of background -->
@@ -122,15 +172,39 @@
         <div class="p-10">
           <ul
             class="text-white font-medium text-sm leading-8 text-justify
-            list-image-[url('/Assets/icons/icons8-done.svg')] 
+            list-image-[url('/Assets/icons/icons8-done.svg')]
           "
           >
-            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">HD/FHD/4K/8K Quality</li>
-            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">+15.000 Channels</li>
-            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">+100.000 VOD Updatable</li>
-            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">Watch from 115 Countries</li>
-            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">Refund Supported</li>
-            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">Support 24/7</li>
+            <li
+              class="lg:hover:underline decoration-blue-600 underline-offset-4"
+            >
+              HD/FHD/4K/8K Quality
+            </li>
+            <li
+              class="lg:hover:underline decoration-blue-600 underline-offset-4"
+            >
+              +15.000 Channels
+            </li>
+            <li
+              class="lg:hover:underline decoration-blue-600 underline-offset-4"
+            >
+              +100.000 VOD Updatable
+            </li>
+            <li
+              class="lg:hover:underline decoration-blue-600 underline-offset-4"
+            >
+              Watch from 115 Countries
+            </li>
+            <li
+              class="lg:hover:underline decoration-blue-600 underline-offset-4"
+            >
+              Refund Supported
+            </li>
+            <li
+              class="lg:hover:underline decoration-blue-600 underline-offset-4"
+            >
+              Support 24/7
+            </li>
           </ul>
         </div>
         <div>
@@ -169,15 +243,39 @@
         <div class="p-10">
           <ul
             class="text-white font-medium text-sm leading-8 text-justify
-            list-image-[url('/Assets/icons/icons8-done.svg')] 
+            list-image-[url('/Assets/icons/icons8-done.svg')]
           "
           >
-            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">HD/FHD/4K/8K Quality</li>
-            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">+15.000 Channels</li>
-            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">+100.000 VOD Updatable</li>
-            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">Watch from 115 Countries</li>
-            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">Refund Supported</li>
-            <li class="lg:hover:underline decoration-blue-600 underline-offset-4">Support 24/7</li>
+            <li
+              class="lg:hover:underline decoration-blue-600 underline-offset-4"
+            >
+              HD/FHD/4K/8K Quality
+            </li>
+            <li
+              class="lg:hover:underline decoration-blue-600 underline-offset-4"
+            >
+              +15.000 Channels
+            </li>
+            <li
+              class="lg:hover:underline decoration-blue-600 underline-offset-4"
+            >
+              +100.000 VOD Updatable
+            </li>
+            <li
+              class="lg:hover:underline decoration-blue-600 underline-offset-4"
+            >
+              Watch from 115 Countries
+            </li>
+            <li
+              class="lg:hover:underline decoration-blue-600 underline-offset-4"
+            >
+              Refund Supported
+            </li>
+            <li
+              class="lg:hover:underline decoration-blue-600 underline-offset-4"
+            >
+              Support 24/7
+            </li>
           </ul>
         </div>
         <div>
