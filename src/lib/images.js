@@ -38,5 +38,7 @@ export const icon = {
   telegram: {id: 9, path: '/Assets/icons/icons8-telegram.svg'},
   whatsapp: {id: 10, path: '/Assets/icons/icons8-whatsapp.svg'},
   email: {id: 11, path: '/Assets/icons/icons8-email.svg'},
+  avatar: {id: 12, path: '/Assets/icons/avatar.svg'},
+  cart: {id: 13, path: '/Assets/icons/cart.svg'},     
 }
 
