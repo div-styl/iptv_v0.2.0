@@ -1,12 +1,12 @@
 <h1
   class="md:text-4xl text-2xl flex justify-center items-center text-white font-extrabold"
 >
- FAQ
+  FAQ
 </h1>
 
 <div
-  class="relative mt-10 w-[500px]  rounded-lg bg-[#1c031c] text-white  shadow-xl
-     sm:mx-auto md:max-w-2xl sm:max-w-sm sm:rounded-lg sm:px-5 "
+  class="relative mt-10 max-w-lg mx-auto rounded-lg bg-[#1c031c] text-white shadow-xl
+      md:w-full sm:rounded-lg sm:px-5"
 >
   <div class="mx-auto px-5">
     <div class="mx-auto mt-8 grid max-w-xl divide-y divide-neutral-200">
