@@ -6,6 +6,7 @@
 
 <div
   class="relative mt-10 max-w-lg mx-auto rounded-lg bg-[#1c031c] text-white shadow-xl
+      md:hover:ring-1 md:hover:ring-orange-500/70
       md:w-full sm:rounded-lg sm:px-5"
 >
   <div class="mx-auto px-5">
