@@ -10,14 +10,14 @@
 <main class="md:flex md:flex-row mx-4 lg:flex justify-center items-center pt-5 ">
   <!-- !step one -->
   <div
-    class="bg-[#3f323f] p-10 rounded-lg max-w-md max-h-96 m-10 md:max-h-[500px]
+    class="bg-[#3f323f] p-10 rounded-lg max-w-md max-h-96 m-10 md:max-h-[580px]
      text-white flex items-center"
   >
     <div class="flex flex-col justify-start">
       <img src={icon.cart.path} alt="cart" class="w-[50px] h-[50px] flex justify-center items-center">
       <h1 class="md:text-3xl text-2xl font-bold">1. Place Your Order</h1>
       <p class="text-sm pt-3 font-medium leading-relaxed">
-        Place your order by choosing your preferredsubscription period : <br /> 1,
+        Place your order by choosing your preferred subscription period : <br /> 1,
         3, 6 Months or 1 Year. Note: You will get a free month no matter what plan
         you choose.
       </p>
@@ -27,7 +27,7 @@
   <!-- !step two -->
 
   <div
-    class="bg-[#3f323f] p-10 rounded-lg max-w-md m-10 
+    class="bg-[#3f323f] p-10 rounded-lg max-w-md m-10  
    text-white flex items-center"
   >
     <div class="flex flex-col justify-start">
