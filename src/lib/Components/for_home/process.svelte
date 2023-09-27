@@ -7,7 +7,7 @@
   How Things Work
 </h1>
 
-<main class="md:flex md:flex-row mx-4 lg:flex justify-center pt-10">
+<main class="md:flex md:flex-row mx-4 lg:flex justify-center items-center pt-5 ">
   <!-- !step one -->
   <div
     class="bg-[#3f323f] p-10 rounded-lg max-w-md max-h-96 m-10 md:max-h-[500px]
@@ -27,7 +27,7 @@
   <!-- !step two -->
 
   <div
-    class="bg-[#3f323f] p-10 rounded-lg max-w-md max-h-96 m-10 md:max-h-[500px]
+    class="bg-[#3f323f] p-10 rounded-lg max-w-md m-10 
    text-white flex items-center"
   >
     <div class="flex flex-col justify-start">
@@ -45,7 +45,7 @@
   <!-- !step three -->
 
   <div
-    class="bg-[#3f323f] p-10 rounded-lg max-w-md max-h-96 m-10 md:max-h-[500px]
+    class="bg-[#3f323f] p-[23px] rounded-lg max-w-md  m-10 
  text-white flex items-center"
   >
     <div class="flex flex-col justify-start">
