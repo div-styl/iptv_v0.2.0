@@ -1,7 +1,7 @@
 {
-  "routes": [
-    {
-      "/api/permissions-policy": "api/permissions-policy.js"
-    }
-  ]
-}
+    "routes": [
+      { "handle": "filesystem" },
+      { "src": "/api/permissions-policy", "dest": "api/permissions-policy.js" }
+    ]
+  }
+  
