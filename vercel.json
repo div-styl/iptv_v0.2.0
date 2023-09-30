@@ -1,0 +1,6 @@
+{
+    "routes": {
+      "/api/permissions-policy": "api/permissions-policy.js"
+    }
+  }
+  
