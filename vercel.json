@@ -3,7 +3,6 @@
   "buildCommand": "npm run build",
   "headers": [
     {
-      "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }], 
       "source": "/(.*)",
       "headers": [
         {
