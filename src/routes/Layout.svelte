@@ -13,7 +13,7 @@
 <Router {url}>
   <Mainbar />
   <Route path="/" component={Home} />
-  <Route path="/Contact" component={Contact} />
+  <Route path="/contact" component={Contact} />
   <Route path="/Terms" component={Terms} />
   <Route path="/About" component={About} />
 
