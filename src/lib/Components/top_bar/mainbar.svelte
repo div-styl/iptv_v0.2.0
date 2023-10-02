@@ -38,7 +38,7 @@
           <Link to="/" class="text-white hover:text-[#FF8913]/90">Home</Link>
         </li>
         <li>
-          <Link to="/Contact" class="text-white hover:text-[#FF8913]/90"
+          <Link to="/contact" class="text-white hover:text-[#FF8913]/90"
             >Contact</Link
           >
         </li>
