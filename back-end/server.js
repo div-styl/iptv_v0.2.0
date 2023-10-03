@@ -17,14 +17,14 @@ app.post('/Contact', (req, res) => {
   const { firstName, lastName, email,subject , message } = req.body;
 
   // Create reusable transporter object using the default SMTP transport
-  const USER_EMAIL = process.env.USR_EMAIL;
-  const USER_PASS = process.env.USR_PASS;
+  const USER_EMAIL = process.env.USER_EMAIL;
+  const USER_PASS = process.env.USER_PASS;
   
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: `${USR_EMAIL}`, // replace with your email
-      pass: `${USR_PASS}` // replace with your password or use an app password
+      user: USER_EMAIL, // replace with your email
+      pass: USER_PASS, // replace with your password or use an app password
     },
 
     secure: true,
