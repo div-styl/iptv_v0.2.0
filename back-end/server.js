@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Contact form endpoint
 app.post('/Contact', (req, res) => {
-  const { firstName, lastName, email,subject , message } = req.body;
+  const { first_name, last_name, email,subject , message } = req.body;
 
   // Create reusable transporter object using the default SMTP transport
   const USER_EMAIL = process.env.USER_EMAIL;
@@ -40,7 +40,7 @@ app.post('/Contact', (req, res) => {
     from: 'gouhmada@gmail.com',
     to: 'gouhmada@gmail.com',
     subject: `${subject}`, // Use backticks instead of single quotes
-    text: `Firstname: ${firstName}\nLastname: ${lastName}\nEmail: ${email}\n\n Message: ${message}`
+    text: `first_name: ${first_name}\nlast_name: ${last_name}\nEmail: ${email}\n\n Message: ${message}`
   };
 
 
