@@ -1,10 +1,15 @@
 <h1
-  class="md:text-4xl text-2xl flex justify-center items-center text-white font-extrabold"
+  class="md:hidden text-2xl flex justify-center items-center text-white font-extrabold"
 >
   FAQ
 </h1>
-<main class="m-5 -space-y-0.5">
+<h1
+  class="hidden md:text-4xl text-2xl md:flex md:justify-center items-center text-white font-extrabold"
+>
+  Frequently Asked Questions
+</h1>
 
+<main class="m-5 -space-y-0.5  ">
   <div
     class="relative mt-10 max-w-lg mx-auto rounded-lg bg-[#1c031c] text-white shadow-xl
   md:hover:ring-1 md:hover:ring-orange-500/70
@@ -34,28 +39,20 @@
                 </svg>
               </span>
             </summary>
-            <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
-              To open a refuns claimer you have to reach us via Whatsapp using the keyword 
-              and reach me through Whatsapp use the keyword <span
-              class="font-bold text-orange-500"
-            >
-              <q> I Wanna Refund </q></span
-            > If the refund claimer is reasonable the refund will be processed within 24 hours.
+            <p class="group-open:animate-fadeIn mt-3 text-neutral-400">
+              To open a refuns claimer you have to reach us via Whatsapp using
+              the keyword and reach me through Whatsapp use the keyword <span
+                class="font-bold text-orange-500"
+              >
+                <q> I Wanna Refund </q></span
+              > If the refund claimer is reasonable the refund will be processed
+              within 24 hours.
             </p>
           </details>
         </div>
       </div>
     </div>
   </div>
-
-
-
-
-
-
-
-
-
 
   <!-- !2nd v2 -->
   <div
@@ -87,7 +84,7 @@
                 </svg>
               </span>
             </summary>
-            <ul class="group-open:animate-fadeIn mt-3 text-neutral-600">
+            <ul class="group-open:animate-fadeIn mt-3 text-neutral-400">
               <li>PayPal</li>
               <li>Credit Card</li>
               <li>Crypto</li>
@@ -129,7 +126,7 @@
                 </svg>
               </span>
             </summary>
-            <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
+            <p class="group-open:animate-fadeIn mt-3 text-neutral-400">
               Our IPTV service works on any device such smart Tv(LG, Sony,
               Samsung) that has a good access to the internet connection
             </p>
@@ -170,7 +167,7 @@
                 </svg>
               </span>
             </summary>
-            <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
+            <p class="group-open:animate-fadeIn mt-3 text-neutral-400">
               if your downloading speed is not less than 30mbps, then everything
               will be fine. In case you are not sure ask for 1 day trial and
               test it.
@@ -214,7 +211,7 @@
                 </svg>
               </span>
             </summary>
-            <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
+            <p class="group-open:animate-fadeIn mt-3 text-neutral-400">
               Of course it is allowed to use the IPTV Login at multiple devices,
               but be aware that it work at one at the time only.
             </p>
@@ -255,17 +252,16 @@
                 </svg>
               </span>
             </summary>
-            <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
+            <p class="group-open:animate-fadeIn mt-3 text-neutral-400">
               scroll through the website and click on the button that says <span
                 class="font-bold text-orange-500"
               >
                 <q> Free Trail </q></span
               >
-              and reach me through Whatsapp use the keyword <span
-              class="font-bold text-orange-500"
-            >
-              <q> I need a trial</q></span
-            >
+              and reach me through Whatsapp use the keyword
+              <span class="font-bold text-orange-500">
+                <q> I need a trial</q></span
+              >
             </p>
           </details>
         </div>
