@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3001;
 
 // Middleware
 app.use(cors({
-  origin: 'http://nexgenstream.me/',
+  origin: ['http://nexgenstream.me', 'https://nexgenstream.me'],
   credentials: true,
   optionsSuccessStatus: 200 
 }));
