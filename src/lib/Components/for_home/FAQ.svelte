@@ -41,10 +41,10 @@
             </summary>
             <p class="group-open:animate-fadeIn mt-3 text-neutral-400">
               To open a refuns claimer you have to reach us via Whatsapp using
-              the keyword and reach me through Whatsapp use the keyword <span
+              the keyword and reach me through Whatsapp use the keyword by clicking on <span
                 class="font-bold text-orange-500"
               >
-                <q> I Wanna Refund </q></span
+                <q> <a href="https://wa.link/uncnpu">Refund Claim </a> </q></span
               > If the refund claimer is reasonable the refund will be processed
               within 24 hours.
             </p>
@@ -258,9 +258,9 @@
               >
                 <q> Free Trail </q></span
               >
-              and reach me through Whatsapp use the keyword
+              and reach me through Whatsapp use the keyword by clicking on 
               <span class="font-bold text-orange-500">
-                <q> I need a trial</q></span
+                <q> <a href="https://wa.link/e3zoua"> I need a test </a></q></span
               >
             </p>
           </details>
