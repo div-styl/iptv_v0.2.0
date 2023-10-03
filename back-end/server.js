@@ -9,8 +9,11 @@ const PORT = process.env.PORT || 3001;
 
 // Middleware
 app.use(cors({
-  origin: 'http://nexgenstream.me/'
+  origin: 'http://nexgenstream.me/',
+  credentials: true,
+  optionsSuccessStatus: 200 
 }));
+app.options('/Contact', cors()); // Handle preflight requests
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -47,6 +50,10 @@ app.post('/Contact', (req, res) => {
       return console.log(error);
     }
     console.log('Message sent: %s', info.messageId);
+
+    // Add this line to enable credentials in CORS
+    res.header('Access-Control-Allow-Credentials', true);
+
     res.send('Message sent successfully');
   });
 });
