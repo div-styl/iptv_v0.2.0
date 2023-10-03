@@ -1,9 +1,0 @@
-CREATE DATABASE IF NOT EXISTS iptv;
-USE 'iptv';
-CREATE TABLE IF NOT EXISTS formdata (
-    id INT NOT NULL AUTO_INCREMENT,
-    firstname VARCHAR(255) NOT NULL,
-    lastname VARCHAR(255) NOT NULL,
-    email VARCHAR(255) NOT NULL,
-    PRIMARY KEY (id)
-);

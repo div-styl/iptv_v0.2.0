@@ -28,7 +28,7 @@
 
     try {
       const response = await fetch(
-        "https://flaks-form.onrender.com/submit-form",
+        "http://localhost:3001/Contact",
         {
           method: "POST",
           headers: {
