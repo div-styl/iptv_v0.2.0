@@ -7,6 +7,7 @@
   import Process from "../lib/Components/for_home/process.svelte";
   import Faq from "../lib/Components/for_home/FAQ.svelte";
   import Support from "../lib/Components/for_home/onsupport.svelte";
+  import Test from "./test.svelte";
 </script>
 
 <main class="bg-[#0F010F] bg-cover bg-center bg-scroll">
@@ -18,4 +19,5 @@
   <Process />
   <Faq />
   <Support />
+  
 </main>
