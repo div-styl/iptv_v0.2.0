@@ -1,5 +1,5 @@
 export const images = {
-  image1: { id: 1, path: '/Assets/movies/007_new.jpg' },
+  image1: { id: 1, path: '/Assets/movies/saw_x-p1603725.jpg' },
   image2: { id: 2, path: '/Assets/movies/Extraction_22.jpg' },
   image3: { id: 3, path: '/Assets/movies/Extraction_23.jpg' },
   image4: { id: 4, path: '/Assets/movies/Game of Thrones (2011).jpg' },
