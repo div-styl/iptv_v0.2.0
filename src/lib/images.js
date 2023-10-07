@@ -9,11 +9,11 @@ export const images = {
   image8: { id: 8, path: '/Assets/movies/mission_impo.webp' },
   image9: { id: 9, path: '/Assets/movies/neeson-retribution.webp' },
   image10: { id: 10, path: '/Assets/movies/oppenheimer.webp' },
-  image11: { id: 11, path: '/Assets/movies/plane.webp' },
+  image11: { id: 11, path: '/Assets/movies/The_Ice_Road.webp' },
   image12: { id: 12, path: '/Assets/movies/sound_of_freedom.webp' },
   image13: { id: 13, path: '/Assets/movies/the_equalizer_3.webp' },
   image14: { id: 14, path: '/Assets/movies/thebatman.webp' },
-
+  image15: { id: 15, path: '/Assets/movies/plane.webp' },
 };
 
 export const channels = {

@@ -14,7 +14,7 @@
           <img
             src={image.path}
             alt={`Image ${image.id}`}
-            class="w-full h-full bg-cover bg-center"
+            class="w-[300px] h-[400px]"
           />
         </div>
       {/each}
