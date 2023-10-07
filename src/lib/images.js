@@ -17,14 +17,15 @@ export const images = {
 };
 
 export const channels = {
-  channel1: { id: 1, path: '/Assets/channels/bein-sports-seeklogo.com.svg' },
-  channel2: { id: 2, path: '/Assets/channels/apple-tv-plus-seeklogo.com.svg' },
-  channel3: { id: 3, path: '/Assets/channels/discovery-channel-2019-seeklogo.com.svg' },
-  channel4: { id: 4, path: '/Assets/channels/disney-channel-seeklogo.com.svg' },
+  channel1: { id: 1, path: '/Assets/channels/hbo.svg' },
+  channel2: { id: 2, path: '/Assets/channels/apple.svg' },
+  channel3: { id: 3, path: '/Assets/channels/Discovery.svg' },
+  channel4: { id: 4, path: '/Assets/channels/bein.svg' },
   channel5: { id: 5, path: '/Assets/channels/fox-channel-seeklogo.com.svg' },
-  channel6: { id: 6, path: '/Assets/channels/hbo-max-seeklogo.com.svg' },
-  channel7: { id: 7, path: '/Assets/channels/national-geographic-kids-seeklogo.com.svg' },
+  channel6: { id: 6, path: '/Assets/channels/ngw.svg' },
+  channel7: { id: 7, path: '/Assets/channels/ngk.svg' },
   channel8: { id: 8, path: '/Assets/channels/osn-seeklogo.com.svg' },
+  channel9: { id: 9, path: '/Assets/channels/abc.svg' },
 }
 
 export const icon = {
