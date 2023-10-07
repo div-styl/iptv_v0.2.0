@@ -1,4 +1,4 @@
-export const images = {
+ export const images = {
   image1: { id: 1, path: '/Assets/movies/sax-x-poster.webp' },
   image2: { id: 2, path: '/Assets/movies/bird_box_barcelona.webp' },
   image3: { id: 3, path: '/Assets/movies/blacklight.webp' },
