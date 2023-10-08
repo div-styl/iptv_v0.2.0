@@ -2,7 +2,6 @@
   // your script goes here
   import { scrollRef } from "svelte-scrolling";
   import { icon } from "../../images";
-
 </script>
 
 <main use:scrollRef={"plans"}>
@@ -13,7 +12,7 @@
   </h1>
   <!-- container of background -->
   <div
-    class="flex xl:flex-row xl:flex-nowrap  flex-wrap
+    class="flex xl:flex-row xl:flex-nowrap flex-wrap
     overflow-x-hidden justify-center items-center xl:space-x-0"
   >
     <!-- !marge two cards-->
@@ -72,7 +71,6 @@
               href="https://hosted.transaction.cloud/payment/product/TC-PR_AolDqa1"
               class="text-black text-xl font-bold">Buy Now</a
             >
-            
           </button>
 
           <h1

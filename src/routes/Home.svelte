@@ -8,7 +8,16 @@
   import Faq from "../lib/Components/for_home/FAQ.svelte";
   import Support from "../lib/Components/for_home/onsupport.svelte";
   import Test from "./test.svelte";
+
+  export let contentTitle = "Popular Movies";
+  export let contentDescription =
+    "Explore the latest and most popular movies on TVPRO.";
 </script>
+
+<svelte:head>
+  <title>{contentTitle} - TVPRO</title>
+  <meta name="description" content={contentDescription} />
+</svelte:head>
 
 <main class="bg-[#0F010F] bg-cover bg-center bg-scroll">
   <Head />
@@ -19,5 +28,4 @@
   <Process />
   <Faq />
   <Support />
-  
 </main>

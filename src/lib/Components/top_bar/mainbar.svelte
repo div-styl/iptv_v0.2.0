@@ -1,5 +1,4 @@
 <script>
-  //import { link as Link } from "svelte-spa-router";
   import { Link } from "svelte-routing";
   import Logo from "/Assets/logo_hub.png";
   import Mobilebar from "./mobilebar.svelte";
@@ -9,25 +8,24 @@
   <!-- nav container -->
   <div class="flex items-center justify-between mx-auto p-3">
     <!-- logo container -->
-    <a href="/">
-      <!-- logo side -->
-      <ul class="flex items-center space-x-3">
-        <li>
-          <!-- lgog as img -->
-          <Link to="/">
-            <img src={Logo} class="w-[40px] h-[40px]" alt="" />
-          </Link>
-        </li>
-        <li>
-          <!-- div class for name of logo only -->
-          <div
-            class="text-white text-opacity- font-semibold font-nicomoji text-[25px]"
-          >
-            TVPRO
-          </div>
-        </li>
-      </ul>
-    </a>
+
+    <!-- logo side -->
+    <ul class="flex items-center space-x-3">
+      <li>
+        <!-- lgog as img -->
+        <Link to="/">
+          <img src={Logo} alt="TVPRO Logo" class="w-[40px] h-[40px]" />
+        </Link>
+      </li>
+      <li>
+        <!-- div class for name of logo only -->
+        <div
+          class="text-white text-opacity- font-semibold font-nicomoji text-[25px]"
+        >
+          TVPRO
+        </div>
+      </li>
+    </ul>
     <!-- nav bar other webpages container using div -->
     <!-- ! nav bar for desktop and tablets only for 768px and above -->
     <div class=" hidden md:flex items-center mx-9 border-solid">
