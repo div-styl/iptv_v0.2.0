@@ -2,6 +2,7 @@
   // your script goes here
   import { scrollRef } from "svelte-scrolling";
   import { icon } from "../../images";
+  import Test from "../../../routes/test.svelte";
 
 </script>
 
@@ -13,7 +14,7 @@
   </h1>
   <!-- container of background -->
   <div
-    class="flex xl:flex-row xl:flex-nowrap  flex-wrap
+    class="flex xl:flex-row xl:flex-nowrap flex-wrap
     overflow-x-hidden justify-center items-center xl:space-x-0"
   >
     <!-- !marge two cards-->
@@ -65,16 +66,8 @@
           </ul>
         </div>
         <div>
-          <button
-            class="bg-[#ff9900] rounded-md px-4 py-3 flex justify-center lg:hover:bg-[#ff9900]/70"
-          >
-            <a
-              href="https://hosted.transaction.cloud/payment/product/TC-PR_AolDqa1"
-              class="text-black text-xl font-bold">Buy Now</a
-            >
-            
-          </button>
-
+          <!-- !button -->
+          <Test />
           <h1
             class="text-white mt-5 font-medium text-[15px] flex justify-center"
           >
