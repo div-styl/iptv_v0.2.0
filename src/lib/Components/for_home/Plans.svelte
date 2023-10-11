@@ -1,12 +1,12 @@
 <script>
-  // your script goes here
-  import { scrollRef } from "svelte-scrolling";
+  //import { scrollRef } from "svelte-scrolling";
   import { icon } from "../../images";
   import Test from "../../../routes/test.svelte";
+  //use:scrollRef={"plans"}
 
 </script>
 
-<main use:scrollRef={"plans"}>
+<main id="plans">
   <h1
     class="md:text-4xl text-2xl flex justify-center text-white font-extrabold"
   >

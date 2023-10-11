@@ -1,7 +1,7 @@
 <script>
     import Background from "/Assets/see.jpg";
     import CButton from "./button.svelte";
-
+    export let handleAnchorClick;
 </script>
   
   <main>
@@ -24,8 +24,8 @@
           unlock a world of endless entertainment. 
           </p>
         </div>
-        <CButton>
-              Get Started
+        <CButton on:click={handleAnchorClick}>
+            Get Start
         </CButton>
       </div>
     </div>
