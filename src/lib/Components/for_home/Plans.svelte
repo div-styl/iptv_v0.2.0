@@ -14,7 +14,8 @@
   </h1>
   <!-- container of background -->
   <div
-    class="flex xl:flex-row xl:flex-nowrap flex-wrap"
+    class="flex xl:flex-row xl:flex-nowrap flex-wrap
+    overflow-x-hidden justify-center items-center xl:space-x-0"
   >
     <!-- !marge two cards-->
     <div class="md:p-4 md:mx-lg:mx-auto p-3 mx-3">
@@ -129,14 +130,7 @@
           </ul>
         </div>
         <div>
-          <button
-            class="bg-[#ff9900] rounded-md px-4 py-3 flex justify-center lg:hover:bg-[#ff9900]/70"
-          >
-            <a
-              href="https://hosted.transaction.cloud/payment/product/TC-PR_1yklj9R"
-              class="text-black text-xl font-bold">Buy Now</a
-            >
-          </button>
+          <Test />
           <h1
             class="text-white mt-5 font-medium text-[15px] flex justify-center"
           >
@@ -203,14 +197,7 @@
           </ul>
         </div>
         <div>
-          <button
-            class="bg-[#ff9900] rounded-md px-4 py-3 flex justify-center lg:hover:bg-[#ff9900]/70"
-          >
-            <a
-              href="https://hosted.transaction.cloud/payment/product/TC-PR_RrXzwz1"
-              class="text-black text-xl font-bold">Buy Now</a
-            >
-          </button>
+          <Test />
           <h1
             class="text-white mt-5 font-medium text-[15px] flex justify-center"
           >
@@ -274,14 +261,7 @@
           </ul>
         </div>
         <div>
-          <button
-            class="bg-[#ff9900] rounded-md px-4 py-3 flex justify-center lg:hover:bg-[#ff9900]/70"
-          >
-            <a
-              href="https://hosted.transaction.cloud/payment/product/TC-PR_AnNvBBA"
-              class="text-black text-xl font-bold">Buy Now</a
-            >
-          </button>
+          <Test />
           <h1
             class="text-white mt-5 font-medium text-[15px] flex justify-center"
           >
