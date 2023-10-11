@@ -19,12 +19,12 @@
   </h1>
 
   <div
-    class="flex xl:flex-row xl:flex-nowrap flex-wrap overflow-x-hidden justify-center  mt-10 space-x-16" 
+    class="flex xl:flex-row xl:flex-nowrap flex-wrap overflow-x-hidden justify-center  mt-10  md:space-x-16" 
   >
     {#each cards as { duration, price, color, boarder }}
-      <div class="md:p-4 md:w-[300px] mx-3">
+      <div class="md:p-4 md:w-[300px] mx-3 py-5">
         <div
-          class="h-[580px] w-[300px] rounded-xl p-5 pt-8 flex flex-col justify-center items-center"
+          class="h-[580px] w-[300px] rounded-xl p-5 pt-8  flex flex-col justify-center items-center "
           style="background-color: {color}; border: {boarder}"
         >
           <h1 class="text-white text-2xl font-light">{duration}</h1>
