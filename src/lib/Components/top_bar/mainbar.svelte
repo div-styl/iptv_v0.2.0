@@ -22,7 +22,7 @@
         <div
           class="text-white text-opacity- font-semibold font-nicomoji text-[25px]"
         >
-          TVPRO
+        Nexgenstream
         </div>
       </li>
     </ul>

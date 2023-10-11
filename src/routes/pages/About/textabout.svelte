@@ -4,10 +4,10 @@
   class="leading-loose "
 >
   <h1 class="text-3xl font-bold text-center leading-relaxed text-white">
-    Welcome To <span class="text-[#FF8913]">TVPRO</span>
+    Welcome To <span class="text-[#FF8913]">Nexgenstream</span>
   </h1>
   <p class="text-white font-medium md:text-xl text-sm ">
-    TVPRO is a Professional Digital product Platform. Here we will provide you
+    Nexgenstream is a Professional Digital product Platform. Here we will provide you
     only interesting content, which you will like very much. We're dedicated to
     providing you the best of Digital product, with a focus on dependability and
     IPTV. We're working to turn our passion for Digital product into a booming

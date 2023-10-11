@@ -2,8 +2,13 @@
   import Header from "./header.svelte";
   import Info from "./info.svelte";
   import Desktopcontact from "./form.svelte";
+  const contentTitle = "Contact me";
+  const contentDescription = "Contact me via email or other socail media platforms";
 </script>
-
+<svelte:head>
+  <title>{contentTitle}</title>
+  <meta name="description" content={contentDescription} />
+</svelte:head>
 <main class="md:h-screen">
   <Header />
 

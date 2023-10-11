@@ -1,17 +1,17 @@
 
 
 <main class="text-white leading-7">
-  <h1 class="text-3xl font-bold">Privacy Policy for tvpro</h1>
+  <h1 class="text-3xl font-bold">Privacy Policy for Nexgenstream</h1>
   <br />
   <p class="text-sm font-medium">
-    At tvpro, accessible from <a
+    At Nexgenstream, accessible from <a
       class=" text-blue-600 decoration-blue-600
       hover:underline underline-offset-2"
-      href="https://tvpro.netlify.app/"
+      href="https://Nexgenstream.me/"
     >
-      TVPRO</a
+      Nexgenstream</a
     > , one of our main priorities is the privacy of our visitors. This Privacy Policy
-    document contains types of information that is collected and recorded by tvpro
+    document contains types of information that is collected and recorded by Nexgenstream
     and how we use it.
   </p>
 
@@ -38,7 +38,7 @@
   </p>
   <br />
   <p class="text-sm font-medium">
-    tvpro legal basis for collecting and using the personal information
+    Nexgenstream legal basis for collecting and using the personal information
     described in this Privacy Policy depends on the Personal Information we
     collect and the specific context in which we collect the information:
   </p>
@@ -46,18 +46,18 @@
   <br />
 
   <ul class="list-disc text-sm font-normal list-inside">
-    <li>tvpro needs to perform a contract with you</li>
-    <li>You have given tvpro permission to do so</li>
+    <li>Nexgenstream needs to perform a contract with you</li>
+    <li>You have given Nexgenstream permission to do so</li>
     <li>
-      Processing your personal information is in tvpro legitimate interests
+      Processing your personal information is in Nexgenstream legitimate interests
     </li>
-    <li>tvpro needs to comply with the law</li>
+    <li>Nexgenstream needs to comply with the law</li>
   </ul>
 
   <br />
 
   <p class="text-sm font-medium">
-    tvpro will retain your personal information only for as long as is necessary
+    Nexgenstream will retain your personal information only for as long as is necessary
     for the purposes set out in this Privacy Policy. We will retain and use your
     information to the extent necessary to comply with our legal obligations,
     resolve disputes, and enforce our policies.
@@ -96,7 +96,7 @@
   <br />
 
   <p class="text-sm font-medium">
-    tvpro follows a standard procedure of using log files. These files log
+    Nexgenstream follows a standard procedure of using log files. These files log
     visitors when they visit websites. All hosting companies do this and a part
     of hosting services' analytics. The information collected by log files
     include internet protocol (IP) addresses, browser type, Internet Service
@@ -115,7 +115,7 @@
 
   <p class="text-sm font-medium">
     You may consult this list to find the Privacy Policy for each of the
-    advertising partners of tvpro.
+    advertising partners of Nexgenstream.
   </p>
 
   <br />
@@ -123,7 +123,7 @@
   <p class="text-sm font-medium">
     Third-party ad servers or ad networks uses technologies like cookies,
     JavaScript, or Web Beacons that are used in their respective advertisements
-    and links that appear on tvpro, which are sent directly to users' browser.
+    and links that appear on Nexgenstream, which are sent directly to users' browser.
     They automatically receive your IP address when this occurs. These
     technologies are used to measure the effectiveness of their advertising
     campaigns and/or to personalize the advertising content that you see on
@@ -133,7 +133,7 @@
   <br />
 
   <p class="text-sm font-medium">
-    Note that tvpro has no access to or control over these cookies that are used
+    Note that Nexgenstream has no access to or control over these cookies that are used
     by third-party advertisers.
   </p>
 
@@ -144,7 +144,7 @@
   <br />
 
   <p class="text-sm font-medium">
-    tvpro's Privacy Policy does not apply to other advertisers or websites.
+    Nexgenstream's Privacy Policy does not apply to other advertisers or websites.
     Thus, we are advising you to consult the respective Privacy Policies of
     these third-party ad servers for more detailed information. It may include
     their practices and instructions about how to opt-out of certain options.
@@ -173,7 +173,7 @@
   <br />
 
   <p class="text-sm font-medium">
-    tvpro does not knowingly collect any Personal Identifiable Information from
+    Nexgenstream does not knowingly collect any Personal Identifiable Information from
     children under the age of 13. If you think that your child provided this
     kind of information on our website, we strongly encourage you to contact us
     immediately and we will do our best efforts to promptly remove such
@@ -189,7 +189,7 @@
   <p class="text-sm font-medium">
     Our Privacy Policy applies only to our online activities and is valid for
     visitors to our website with regards to the information that they shared
-    and/or collect in tvpro. This policy is not applicable to any information
+    and/or collect in Nexgenstream. This policy is not applicable to any information
     collected offline or via channels other than this website.
   </p>
 
