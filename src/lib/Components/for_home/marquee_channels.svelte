@@ -7,7 +7,7 @@
 
 <article class="flex whitespace-no-wrap overflow-x-hidden">
   <div class="relative">
-    <Marquee pauseOnHover={true} speed={100} play={gomovie}>
+    <Marquee pauseOnHover={true} speed={40} play={gomovie}>
       {#each Array(loop) as _}
         {#each Object.values(channels) as image (image.id)}
           <div class="h-40 w-40 mx-4">

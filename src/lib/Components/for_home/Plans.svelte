@@ -14,8 +14,7 @@
   </h1>
   <!-- container of background -->
   <div
-    class="flex xl:flex-row xl:flex-nowrap flex-wrap
-    overflow-x-hidden justify-center items-center xl:space-x-0"
+    class="flex xl:flex-row xl:flex-nowrap flex-wrap"
   >
     <!-- !marge two cards-->
     <div class="md:p-4 md:mx-lg:mx-auto p-3 mx-3">

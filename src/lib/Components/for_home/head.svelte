@@ -1,5 +1,5 @@
 <script>
-    import Background from "/Assets/see.jpg";
+    import Background from "/Assets/see.webp";
     import CButton from "./button.svelte";
     export let handleAnchorClick;
 </script>
