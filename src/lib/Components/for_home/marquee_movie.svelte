@@ -5,20 +5,20 @@
   let loop = 10;
 </script>
 
-<article>
+<section>
   <div class="relative">
     <Marquee pauseOnHover={true} speed={40} play={gomovie}>
       {#each Array(loop) as _}
-      {#each Object.values(images) as image (image.id)}
-        <div class="h-50 w-60 mx-3">
-          <img
-            src={image.path}
-            alt={`Image ${image.id}`}
-            class="w-[300px] h-[400px]"
-          />
-        </div>
-      {/each}
+        {#each Object.values(images) as image (image.id)}
+          <div class="h-50 w-60 mx-3">
+            <img
+              src={image.path}
+              alt={`Image ${image.id}`}
+              class="w-[300px] h-[400px]"
+            />
+          </div>
+        {/each}
       {/each}
     </Marquee>
   </div>
-</article>
+</section>

@@ -2,7 +2,6 @@
   import Infomobile from "./infomobile.svelte";
   import Statusform from "./statusform.svelte";
 
-  
   const valueDefaults = {
     first_name: "",
     last_name: "",

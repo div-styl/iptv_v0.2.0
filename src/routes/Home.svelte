@@ -8,14 +8,13 @@
   import Faq from "../lib/Components/for_home/FAQ.svelte";
   import Support from "../lib/Components/for_home/onsupport.svelte";
 
-  import Test from "./test.svelte";
-  export let contentTitle = "Popular Movies";
+  export let contentTitle = "Popular Movies - nexgenstream";
   export let contentDescription =
-    "Explore the latest and most popular movies on TVPRO.";
+    "Explore our popular movies, series and channels with our IP_TV platform";
 </script>
 
 <svelte:head>
-  <title>{contentTitle} - TVPRO</title>
+  <title>{contentTitle}</title>
   <meta name="description" content={contentDescription} />
 </svelte:head>
 

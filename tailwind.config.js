@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 const tailwindConfig = {
-  content: ["./src/**/*.{html,js,svelte}"],
+  content: ["./src/**/*.{html,js,svelte}", "./dist/index.html"],
   theme: {
     extend: {
       gradientColorStops: {
@@ -29,7 +29,10 @@ const tailwindConfig = {
           "100%": { transform: "translateX(0%)" },
         },
       },
-
+      fontFamily: {
+        Anton: ["Anton", "sans-serif"],
+        Fugaz: ["Fugaz One", "sans-serif"],
+      },
     },
   },
   plugins: [],
