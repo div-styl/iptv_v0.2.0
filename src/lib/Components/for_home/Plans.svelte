@@ -32,6 +32,14 @@
       pop: "",
     },
   ];
+  const features = [
+    { name: "HD/FHD/4K/8K Quality" },
+    { name: "+15.000 Channels" },
+    { name: "+100.000 VOD Updatable" },
+    { name: "Watch from 115 Countries" },
+    { name: "Refund Supported" },
+    { name: "24/7 Support" },
+  ];
 </script>
 
 <section id="plans">
@@ -42,51 +50,28 @@
   </h1>
 
   <div
-    class="flex xl:flex-row xl:flex-nowrap flex-wrap overflow-x-hidden justify-center mt-10 md:space-x-16"
+    class="flex xl:flex-row xl:flex-nowrap flex-wrap overflow-x-hidden justify-center mt-5 md:space-x-16"
   >
     {#each cards as { duration, price, color, boarder, pop }}
-      <div class="md:p-4 md:w-[300px] mx-3 py-5">
+      <div class="md:p-4 md:w-[300px] mx-3 py-3">
         <div
-          class="h-[580px] w-[300px] rounded-xl p-5 pt-8 flex flex-col justify-center items-center"
+          class="h-[580px] w-[300px] rounded-xl p-5 pt-5 flex flex-col justify-center items-center"
           style="background-color: {color}; border: {boarder}"
         >
           <h1 class="text-white text-2xl font-bold">{duration}</h1>
           <h1 class="text-red-700 pt-2 text-2xl font-Fugaz">{pop}</h1>
-          <h2 class="text-white text-6xl mt-3 font-bold">{price}</h2>
+          <h2 class="text-white text-5xl mt-3 font-bold">{price}</h2>
           <div class="p-10">
             <ul
               class="text-white font-medium text-sm leading-8 text-justify list-image-[url('/Assets/icons/icons8-done.svg')]"
             >
-              <li
-                class="lg:hover:underline decoration-blue-600 underline-offset-4"
-              >
-                HD/FHD/4K/8K Quality
-              </li>
-              <li
-                class="lg:hover:underline decoration-blue-600 underline-offset-4"
-              >
-                +15.000 Channels
-              </li>
-              <li
-                class="lg:hover:underline decoration-blue-600 underline-offset-4"
-              >
-                +100.000 VOD Updatable
-              </li>
-              <li
-                class="lg:hover:underline decoration-blue-600 underline-offset-4"
-              >
-                Watch from 115 Countries
-              </li>
-              <li
-                class="lg:hover:underline decoration-blue-600 underline-offset-4"
-              >
-                Refund Supported
-              </li>
-              <li
-                class="lg:hover:underline decoration-blue-600 underline-offset-4"
-              >
-                Support 24/7
-              </li>
+              {#each features as { name }}
+                <li
+                  class="lg:hover:underline decoration-blue-600 underline-offset-4"
+                >
+                  {name}
+                </li>
+              {/each}
             </ul>
           </div>
           <div>
@@ -97,10 +82,10 @@
               Ready In 5-10min
             </h1>
             <div class="mt-4 flex whitespace-nowrap space-x-2 justify-center">
-              <img src={icon.icon4.path} alt="" />
-              <img src={icon.icon5.path} alt="" />
-              <img src={icon.icon6.path} alt="" />
-              <img src={icon.icon7.path} alt="" />
+              <img src={icon.icon4.path} alt="android" />
+              <img src={icon.icon5.path} alt="apple" />
+              <img src={icon.icon6.path} alt="smart tv" />
+              <img src={icon.icon7.path} alt="desktop" />
             </div>
           </div>
         </div>
