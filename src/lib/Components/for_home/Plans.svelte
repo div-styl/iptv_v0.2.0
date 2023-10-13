@@ -1,6 +1,6 @@
 <script lang="ts">
   import { icon } from "../../images";
-  import Test from "../../../routes/test.svelte";
+  import Buy from "../../../routes/placeorder.svelte";
 
   const cards = [
     {
@@ -75,7 +75,7 @@
             </ul>
           </div>
           <div>
-            <Test />
+            <Buy />
             <h1
               class="text-white mt-5 font-medium text-[15px] flex justify-center"
             >
