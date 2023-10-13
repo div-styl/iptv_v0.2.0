@@ -14,7 +14,7 @@
             <img
               src={image.path}
               alt={`Image ${image.id}`}
-              class="w-[240px] h-[400px]"
+              class="w-[240px] h-[400px] object-contain aspect-auto"
             />
           </div>
         {/each}
