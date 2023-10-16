@@ -7,7 +7,7 @@
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://vercel.live/api/; style-src 'self' 'unsafe-inline'; img-src 'self'; connect-src 'self' https://nodeform-ju0b.onrender.com/Contact; font-src 'self' https://fonts.gstatic.com/; "
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://vercel.live; style-src 'self' 'unsafe-inline'; img-src 'self'; connect-src 'self' https://nodeform-ju0b.onrender.com/Contact; font-src 'self' https://fonts.gstatic.com/ https://fonts.googleapis.com; "
         },
 
         {
