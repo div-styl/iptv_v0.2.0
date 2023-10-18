@@ -91,7 +91,7 @@
             type="text"
             name="full_name"
             placeholder="Full Name"
-            class="bg-gray-200 text-white border border-gray-200 rounded-md w-full mt-1 py-2 px-4
+            class="bg-gray-200 text-black border border-gray-200 rounded-md w-full mt-1 py-2 px-4
               focus:outline-none focus:bg-white focus:border-[#FF8913] font-medium"
           />
         </label>
