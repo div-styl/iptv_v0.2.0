@@ -62,7 +62,7 @@
     <div use:melt={$overlay} class="fixed inset-0 z-50 bg-black/50" />
     <!-- ! the container of the dialog only -->
     <div
-      class="fixed left-[50%] top-[50%] z-50 max-h-[90vh] w-[90vw]
+      class="fixed left-[50%] top-[50%] z-50 max-h-[100vh] w-[90vw]
               max-w-[450px] translate-x-[-50%] translate-y-[-50%] rounded-xl bg-gray-50
               p-6 shadow-lg"
       use:melt={$content}
@@ -77,7 +77,7 @@
       <!-- ! simple text for the display to the user -->
       <p
         use:melt={$description}
-        class="mb-5 mt-2 leading-normal text-black hover:ring-2 hover:ring-orange-500"
+        class="mb-5 mt-2 leading-normal text-black"
       >
         This Form meant to collect some information for preparing your order.
       </p>
