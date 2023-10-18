@@ -9,7 +9,7 @@
     <span
       class="text-sm text-gray-200 dark:text-gray-500 sm:text-center flex justify-center"
       >© 2023 <a
-        href="https://nexgensteam.me"
+        href="https://nexgenstream.me"
         class="hover:underline underline-offset-4 hover:text-[#FF8913]/90"
       >
         Nexgenstream</a
