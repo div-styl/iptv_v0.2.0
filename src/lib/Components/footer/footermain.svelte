@@ -9,10 +9,10 @@
     <span
       class="text-sm text-gray-200 dark:text-gray-500 sm:text-center flex justify-center"
       >© 2023 <a
-        href="https://tvpro.netlify.app/"
+        href="https://nexgensteam.me"
         class="hover:underline underline-offset-4 hover:text-[#FF8913]/90"
       >
-        TVPRO</a
+        Nexgenstream</a
       >. All Rights Reserved.
     </span>
     <ul
