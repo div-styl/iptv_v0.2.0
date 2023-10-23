@@ -27,7 +27,7 @@
 
     try {
       const response = await fetch(
-        "https://nodeform-ju0b.onrender.com/Contact",
+        "https://iptv-contactform.vercel.app/Contact",
         {
           method: "POST",
           headers: {
