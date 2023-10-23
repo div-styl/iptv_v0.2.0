@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "node server.js",
+    "build": "node server.js",
     "lint": "eslint --fix .",
     "vercel-build": "echo hello"
   },
