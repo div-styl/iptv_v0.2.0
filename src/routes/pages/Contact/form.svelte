@@ -33,14 +33,14 @@
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify(values),
+          body: JSON.stringify(values, null, 4),
         }
       );
 
       if (response.ok) {
         // Handle successful submission, e.g., show a success message
         console.log("the form is sent to email owner");
-        console.log(JSON.stringify(values));
+        console.log(JSON.stringify(values, null, 4));
         // prompt the success message
         isFormSuccess = true;
         isFormSubmitted = true;
