@@ -37,8 +37,8 @@ app.post('/Contact', (req, res) => {
 
   // Setup email data
   let mailOptions = {
-    from: 'gouhmada@gmail.com',
-    to: 'gouhmada@gmail.com',
+    from: USER_EMAIL,
+    to: USER_EMAIL,
     subject: `${subject}`, // Use backticks instead of single quotes
     text: `first_name: ${first_name}\nlast_name: ${last_name}\nEmail: ${email}\n\n Message: ${message}`
   };
@@ -63,3 +63,4 @@ app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
 
+module.exports = app
