@@ -57,8 +57,13 @@
       console.log("API Response:", response);
 
       if (callapi.ok) {
-        console.log("Data sent successfully");
-        resetForm();
+        try {
+          const response = await callapi.json();
+          console.log("API Response:", response);
+          // Handle the JSON response as needed.
+        } catch (error) {
+          console.error("Error parsing JSON:", error);
+        }
       } else {
         console.error("The order is not placed");
       }
