@@ -53,12 +53,11 @@
         },
         body: JSON.stringify(values, null, 4),
       });
-      const response = await callapi.json();
-      console.log("API Response:", response);
 
       if (callapi.ok) {
-        console.log("Data sent successfully");
-        //resetForm();
+        console.log("well done");
+        console.log(JSON.stringify(values, null, 4));
+        resetForm();
       } else {
         console.error("The order is not placed");
       }
