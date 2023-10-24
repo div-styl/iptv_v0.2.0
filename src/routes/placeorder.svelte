@@ -1,13 +1,15 @@
 <script lang="ts">
   import { createDialog, melt } from "@melt-ui/svelte";
-  /*!for radio*/
-  const radio_values = [
+
+  // Define your radio data
+  const radio_data = [
     { name: "Phone", type: "phone" },
     { name: "Tv", type: "Tv" },
     { name: "Tablet", type: "Tablet" },
   ];
-  //for values form
-  const values = {
+
+  // Define your form data
+  let values = {
     full_name: "",
     email: "",
     device_type: "",
@@ -16,32 +18,27 @@
     message: "",
   };
 
-  let values = { ...values };
-
+  // Reset form fields and values
   const resetForm = () => {
-    // Optionally, reset the form fields
-    document.querySelector("form").reset();
-    // Reset 'values' to default values
-    values = { ...values };
+    values = {
+      full_name: "",
+      email: "",
+      device_type: "",
+      device_name: "",
+      plan: "",
+      message: "",
+    };
   };
 
-  //melt-ui
+  // Melt-UI
   const {
-    elements: {
-      trigger,
-      overlay,
-      content,
-      title,
-      description,
-      close,
-      portalled,
-    },
+    elements: { trigger, overlay, content, title, description, close, portalled },
     states: { open },
   } = createDialog({
     forceVisible: true,
   });
 
-  // sending the values to the server
+  // Handle form submission
   const placeholder = async (event) => {
     event.preventDefault();
 
@@ -55,7 +52,7 @@
       });
 
       if (callapi.ok) {
-        console.log("well done");
+        console.log("Order placed successfully");
         console.log(JSON.stringify(values, null, 4));
         resetForm();
       } else {
@@ -77,25 +74,18 @@
 <div use:melt={$portalled}>
   {#if $open}
     <div use:melt={$overlay} class="fixed inset-0 z-50 bg-black/50" />
-    <!-- ! the container of the dialog only -->
     <div
       class="fixed left-[50%] top-[50%] z-50 max-h-[100vh] w-[90vw]
               max-w-[450px] translate-x-[-50%] translate-y-[-50%] rounded-xl bg-gray-50
               p-6 shadow-lg"
       use:melt={$content}
     >
-      <!-- ! the title -->
-      <h2
-        use:melt={$title}
-        class="flex justify-center text-lg font-bold text-black"
-      >
+      <h2 use:melt={$title} class="flex justify-center text-lg font-bold text-black">
         Buying Form
       </h2>
-      <!-- ! simple text for the display to the user -->
       <p use:melt={$description} class="mb-5 mt-2 leading-normal text-black">
-        This Form meant to collect some information for preparing your order.
+        This Form is meant to collect information for your order.
       </p>
-      <!-- ! the form -->
       <form action="POST" on:submit|preventDefault={placeholder}>
         <label for="full_name" class="text-black uppercase font-semibold">
           Full Name
@@ -123,9 +113,8 @@
             />
           </label>
         </div>
-        <!-- ! the radio -->
         <fieldset class="flex flex-row pt-3">
-          {#each radio_values as { name, type }}
+          {#each radio_data as { name, type }}
             <input
               type="radio"
               id={type}
@@ -141,37 +130,36 @@
             </label>
           {/each}
         </fieldset>
-        <!-- ! device name -->
         <div class="pt-5">
           <label
             for="device_name"
             class="text-black uppercase font-semibold pt-3"
           >
-            device name
+            Device Name
             <input
               required
               bind:value={values.device_name}
-              type="device_name"
-              name="device name"
-              placeholder="device name"
+              type="text"
+              name="device_name"
+              placeholder="Device Name"
               class="bg-gray-200 text-black border border-gray-200 rounded-md w-full mt-1 py-2 px-4
-            focus:outline-none focus:bg-white focus:border-[#FF8913] font-medium"
+              focus:outline-none focus:bg-white focus:border-[#FF8913] font-medium"
             />
           </label>
         </div>
-        <!-- ! select plan -->
         <fieldset>
           <label
-            for="countries"
+            for="plan"
             class="text-black uppercase font-semibold pt-3 block"
-            >Select The Plan</label
           >
+            Select The Plan
+          </label>
           <select
             name="plan"
             required
             bind:value={values.plan}
             class="text-black uppercase font-semibold
-          border rounded-md focus:border-[#FF8913] focus:bg-white bg-gray-200"
+              border rounded-md focus:border-[#FF8913] focus:bg-white bg-gray-200"
           >
             <option value="1 Month">1 Month</option>
             <option value="3 Months">3 Months</option>
@@ -180,9 +168,9 @@
           </select>
         </fieldset>
         <div class="pt-4">
-          <label for="message" class="text-black uppercase font-semibold block"
-            >Your message</label
-          >
+          <label for="message" class="text-black uppercase font-semibold block">
+            Your message
+          </label>
           <textarea
             rows="2"
             name="message"
@@ -191,20 +179,18 @@
             placeholder="Anything you would like to add to the order..."
           />
         </div>
-        <!-- ! the close button -->
         <div class="mt-6 flex justify-end gap-4">
           <button
             use:melt={$close}
             class="inline-flex h-8 items-center justify-center rounded-md
-                            bg-gray-300 px-4 font-medium leading-none text-black hover:ring-2 hover:ring-orange-500"
+              bg-gray-300 px-4 font-medium leading-none text-black hover:ring-2 hover:ring-orange-500"
           >
             Cancel
           </button>
-          <!-- ! the save button -->
           <button
             type="submit"
             class="inline-flex h-8 items-center justify-center rounded-md
-                            bg-gray-300 px-4 font-medium leading-none text-black hover:ring-2 hover:ring-orange-500"
+              bg-gray-300 px-4 font-medium leading-none text-black hover:ring-2 hover:ring-orange-500"
           >
             Place The Order
           </button>
