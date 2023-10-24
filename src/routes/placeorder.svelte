@@ -46,7 +46,7 @@
     event.preventDefault();
 
     try {
-      const callapi = await fetch("https://iptv-contactform.vercel.app", {
+      const callapi = await fetch("https://iptv-contactform.vercel.app/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
