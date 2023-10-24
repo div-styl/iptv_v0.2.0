@@ -44,9 +44,27 @@
   // sending the data to the server
   const placeholder = async (event) => {
     event.preventDefault();
-    const datajson = JSON.stringify(data, null, 4);
-    console.log(datajson);
-    resetForm();
+
+    try {
+      const callapi = await fetch("https://iptv-contactform.vercel.app/", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(values, null, 4),
+      });
+      const response = await callapi.json();
+      console.log("API Response:", response);
+
+      if (callapi.ok) {
+        console.log("Data sent successfully");
+        resetForm();
+      } else {
+        console.error("The order is not placed");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+    }
   };
 </script>
 
@@ -75,10 +93,7 @@
         Buying Form
       </h2>
       <!-- ! simple text for the display to the user -->
-      <p
-        use:melt={$description}
-        class="mb-5 mt-2 leading-normal text-black"
-      >
+      <p use:melt={$description} class="mb-5 mt-2 leading-normal text-black">
         This Form meant to collect some information for preparing your order.
       </p>
       <!-- ! the form -->
