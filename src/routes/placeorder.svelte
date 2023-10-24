@@ -51,13 +51,14 @@
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.parse(JSON.stringify(values, null, 4)),
+        body: JSON.stringify(values, null, 4),
       });
       const response = await callapi.json();
       console.log("API Response:", response);
 
       if (callapi.ok) {
-        console.log("done well");
+        console.log("Data sent successfully");
+        //resetForm();
       } else {
         console.error("The order is not placed");
       }
