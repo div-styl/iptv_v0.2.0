@@ -32,7 +32,15 @@
 
   // Melt-UI
   const {
-    elements: { trigger, overlay, content, title, description, close, portalled },
+    elements: {
+      trigger,
+      overlay,
+      content,
+      title,
+      description,
+      close,
+      portalled,
+    },
     states: { open },
   } = createDialog({
     forceVisible: true,
@@ -41,25 +49,20 @@
   // Handle form submission
   const placeholder = async (event) => {
     event.preventDefault();
+    const callapi = await fetch("https://iptv-contactform.vercel.app/", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(values, null, 4),
+    });
 
-    try {
-      const callapi = await fetch("https://iptv-contactform.vercel.app/", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(values, null, 4),
-      });
-
-      if (callapi.ok) {
-        console.log("Order placed successfully");
-        console.log(JSON.stringify(values, null, 4));
-        resetForm();
-      } else {
-        console.error("The order is not placed");
-      }
-    } catch (error) {
-      console.error("Error:", error);
+    if (callapi.ok) {
+      console.log("Order placed successfully");
+      console.log(JSON.stringify(values, null, 4));
+      resetForm();
+    } else {
+      console.error("The order is not placed");
     }
   };
 </script>
@@ -80,7 +83,10 @@
               p-6 shadow-lg"
       use:melt={$content}
     >
-      <h2 use:melt={$title} class="flex justify-center text-lg font-bold text-black">
+      <h2
+        use:melt={$title}
+        class="flex justify-center text-lg font-bold text-black"
+      >
         Buying Form
       </h2>
       <p use:melt={$description} class="mb-5 mt-2 leading-normal text-black">
