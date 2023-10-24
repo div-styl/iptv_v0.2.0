@@ -51,7 +51,7 @@
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(values, null, 4),
+        body: JSON.parse(JSON.stringify(values, null, 4)),
       });
       const response = await callapi.json();
       console.log("API Response:", response);
@@ -60,6 +60,8 @@
         try {
           const response = await callapi.json();
           console.log("API Response:", response);
+          const data = callapi.body;
+          console.log("YOUR API:", data);
           // Handle the JSON response as needed.
         } catch (error) {
           console.error("Error parsing JSON:", error);
