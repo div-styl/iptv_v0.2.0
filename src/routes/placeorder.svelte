@@ -57,15 +57,7 @@
       console.log("API Response:", response);
 
       if (callapi.ok) {
-        try {
-          const response = await callapi.json();
-          console.log("API Response:", response);
-          const data = callapi.body;
-          console.log("YOUR API:", data);
-          // Handle the JSON response as needed.
-        } catch (error) {
-          console.error("Error parsing JSON:", error);
-        }
+        console.log("done well");
       } else {
         console.error("The order is not placed");
       }
