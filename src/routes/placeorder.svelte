@@ -1,13 +1,13 @@
 <script lang="ts">
   import { createDialog, melt } from "@melt-ui/svelte";
   /*!for radio*/
-  const radio_data = [
+  const radio_values = [
     { name: "Phone", type: "phone" },
     { name: "Tv", type: "Tv" },
     { name: "Tablet", type: "Tablet" },
   ];
-  //for data form
-  const data = {
+  //for values form
+  const values = {
     full_name: "",
     email: "",
     device_type: "",
@@ -16,13 +16,13 @@
     message: "",
   };
 
-  let values = { ...data };
+  let values = { ...values };
 
   const resetForm = () => {
     // Optionally, reset the form fields
     document.querySelector("form").reset();
     // Reset 'values' to default values
-    values = { ...data };
+    values = { ...values };
   };
 
   //melt-ui
@@ -41,7 +41,7 @@
     forceVisible: true,
   });
 
-  // sending the data to the server
+  // sending the values to the server
   const placeholder = async (event) => {
     event.preventDefault();
 
@@ -101,7 +101,7 @@
           Full Name
           <input
             required
-            bind:value={data.full_name}
+            bind:value={values.full_name}
             type="text"
             name="full_name"
             placeholder="Full Name"
@@ -114,7 +114,7 @@
             Email
             <input
               required
-              bind:value={data.email}
+              bind:value={values.email}
               type="email"
               name="email"
               placeholder="Email"
@@ -125,13 +125,13 @@
         </div>
         <!-- ! the radio -->
         <fieldset class="flex flex-row pt-3">
-          {#each radio_data as { name, type }}
+          {#each radio_values as { name, type }}
             <input
               type="radio"
               id={type}
               name="device_type"
               value={type}
-              bind:group={data.device_type}
+              bind:group={values.device_type}
             />
             <label
               for={type}
@@ -150,7 +150,7 @@
             device name
             <input
               required
-              bind:value={data.device_name}
+              bind:value={values.device_name}
               type="device_name"
               name="device name"
               placeholder="device name"
@@ -169,7 +169,7 @@
           <select
             name="plan"
             required
-            bind:value={data.plan}
+            bind:value={values.plan}
             class="text-black uppercase font-semibold
           border rounded-md focus:border-[#FF8913] focus:bg-white bg-gray-200"
           >
@@ -186,7 +186,7 @@
           <textarea
             rows="2"
             name="message"
-            bind:value={data.message}
+            bind:value={values.message}
             class="block p-3 w-full text-sm text-black rounded-md border focus:outline-1 focus:outline-[#FF8913] focus:bg-white bg-gray-200"
             placeholder="Anything you would like to add to the order..."
           />
